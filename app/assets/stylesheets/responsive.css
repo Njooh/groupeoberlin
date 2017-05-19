@@ -882,8 +882,7 @@
     .work-process .process-info {
         float: none;
         margin-left: 0;
-        text-align: center;
-    !important;
+        text-align: center !important;
     }
 
     .services .service {
