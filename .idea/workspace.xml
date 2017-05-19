@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fonts.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44415">
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7245">
@@ -806,12 +806,12 @@
       <workItem from="1495108553389" duration="343000" />
       <workItem from="1495110988243" duration="1397000" />
       <workItem from="1495112665066" duration="434000" />
-      <workItem from="1495113161689" duration="40026000" />
+      <workItem from="1495113161689" duration="40260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44365000" />
+    <option name="totallyTimeSpent" value="44599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -1236,14 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44415">
-          <caret line="2961" column="68" lean-forward="false" selection-start-line="2961" selection-start-column="68" selection-end-line="2961" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1256,6 +1248,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7245">
           <caret line="483" column="23" lean-forward="false" selection-start-line="483" selection-start-column="8" selection-end-line="483" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44415">
+          <caret line="2961" column="68" lean-forward="false" selection-start-line="2961" selection-start-column="68" selection-end-line="2961" selection-end-column="68" />
           <folding />
         </state>
       </provider>
