@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="737" column="32" lean-forward="false" selection-start-line="737" selection-start-column="32" selection-end-line="737" selection-end-column="32" />
+              <caret line="737" column="33" lean-forward="false" selection-start-line="737" selection-start-column="33" selection-end-line="737" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -129,6 +129,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="groupeoberlin.com_v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupeoberlin.com_v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupeoberlin.com_v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,12 +563,12 @@
       <workItem from="1495110988243" duration="1397000" />
       <workItem from="1495112665066" duration="434000" />
       <workItem from="1495113161689" duration="43759000" />
-      <workItem from="1495190995148" duration="728000" />
+      <workItem from="1495190995148" duration="940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48826000" />
+    <option name="totallyTimeSpent" value="49038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -950,7 +964,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="737" column="32" lean-forward="false" selection-start-line="737" selection-start-column="32" selection-end-line="737" selection-end-column="32" />
+          <caret line="737" column="33" lean-forward="false" selection-start-line="737" selection-start-column="33" selection-end-line="737" selection-end-column="33" />
           <folding />
         </state>
       </provider>
