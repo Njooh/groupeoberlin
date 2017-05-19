@@ -2538,6 +2538,56 @@ img.mfp-img {
     margin-right: -20px;
 }
 
+
+@font-face {
+  font-family: 'montserratregular';
+  src: font-url('montserrat-regular-webfont.eot');
+  src: font-url('montserrat-regular-webfont-.eot#iefix') unquote(format('embedded-opentype')),
+  font-url('montserrat-regular-webfont.woff2') unquote(format('woff2')),
+  font-url('montserrat-regular-webfont.woff') unquote(format('woff')),
+  font-url('montserrat-regular-webfont.ttf') unquote(format('truetype')),
+  font-url('montserrat-regular-webfont.svg#montserratregular') unquote(format('svg'));
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'montserratsemi_bold';
+  src: font-url('montserrat-semibold-webfont.eot');
+  src: font-url('montserrat-semibold-webfont-.eot#iefix') unquote(format('embedded-opentype')),
+  font-url('montserrat-semibold-webfont.woff2') unquote(format('woff2')),
+  font-url('montserrat-semibold-webfont.woff') unquote(format('woff')),
+  font-url('montserrat-semibold-webfont.ttf') unquote(format('truetype')),
+  font-url('montserrat-semibold-webfont.svg#montserratsemi_bold') unquote(format('svg'));
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratbold';
+  src: font-url('montserrat-bold-webfont.eot');
+  src: font-url('montserrat-bold-webfont-.eot#iefix') unquote(format('embedded-opentype')),
+  font-url('montserrat-bold-webfont.woff2') unquote(format('woff2')),
+  font-url('montserrat-bold-webfont.woff') unquote(format('woff')),
+  font-url('montserrat-bold-webfont.ttf') unquote(format('truetype')),
+  font-url('montserrat-bold-webfont.svg#montserratbold') unquote(format('svg'));
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratextra_bold';
+  src: font-url('montserrat-extrabold-webfont.eot');
+  src: font-url('montserrat-extrabold-webfont-.eot#iefix') unquote(format('embedded-opentype')),
+  font-url('montserrat-extrabold-webfont.woff2') unquote(format('woff2')),
+  font-url('montserrat-extrabold-webfont.woff') unquote(format('woff')),
+  font-url('montserrat-extrabold-webfont.ttf') unquote(format('truetype')),
+  font-url('montserrat-extrabold-webfont.svg#montserratextra_bold') unquote(format('svg'));
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ==========================================================================
 								THE END OF CSS
  ========================================================================== */
