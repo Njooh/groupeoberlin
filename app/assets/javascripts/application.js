@@ -10,15 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery.js
+//= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require bootstrap.js
-//= require owl.carousel.js
-//= require jquery.backstretch.js
-//= require cubeportfolio.js
-//= require magnific-popup.js
+//= require bootstrap.min
+//= require owl.carousel.min
+//= require jquery.backstretch.min
+//= require cubeportfolio.min
+//= require magnific-popup.min
 //= require custom
-//= require gmaps.js
-//= require modernizr.js
+//= require gmaps
+//= require modernizr.min
 //= require_tree .
