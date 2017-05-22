@@ -28,8 +28,8 @@
       <file leaf-file-name="agro.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/filliales/agro.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="75" column="85" lean-forward="false" selection-start-line="75" selection-start-column="85" selection-end-line="75" selection-end-column="85" />
+            <state relative-caret-position="331">
+              <caret line="146" column="45" lean-forward="false" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -783,12 +783,12 @@
       <workItem from="1495113161689" duration="43759000" />
       <workItem from="1495190995148" duration="1826000" />
       <workItem from="1495442857121" duration="8879000" />
-      <workItem from="1495461081401" duration="10377000" />
+      <workItem from="1495461081401" duration="11570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69180000" />
+    <option name="totallyTimeSpent" value="70373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1154,8 +1154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/filliales/agro.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="75" column="85" lean-forward="false" selection-start-line="75" selection-start-column="85" selection-end-line="75" selection-end-column="85" />
+        <state relative-caret-position="331">
+          <caret line="146" column="45" lean-forward="false" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
           <folding />
         </state>
       </provider>

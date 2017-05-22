@@ -7,7 +7,7 @@
   <div class="breadcrumb-content container">
     <h1>Oberlin Agro</h1>
     <ol class="breadcrumb">
-      <li><a href="index.html">Accueil</a></li>
+      <li><a href="/">Accueil</a></li>
       <li class="active">Oberlin Agro</li>
     </ol>
   </div>
@@ -68,12 +68,13 @@
         <h2>Completed Recently</h2>
       </div>
     </div>
+
     <div class="row" >
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path(('project/1.jpg'), :class => 'image-link') do %>
-                <%= image_tag(('project/6.jpg'), :class => 'img-responsive image-link', :alt => '') %>
+            <%= link_to image_path('project/1.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
           <div class="project-title">
@@ -86,8 +87,51 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path(('project/1.jpg'), :class => 'image-link') do %>
-                <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('project/2.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/2.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Lorem ipsum dolor sit</a></h3>
+            <span>Clients: Asthetic</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/3.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/3.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Legentis in iis qui facit</a></h3>
+            <span>Clients: Martin</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/4.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/4.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Duis autem vel eum </a>  </h3>
+            <span>Clients: Marbel</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/2.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/5.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
           <div class="project-title">
@@ -100,7 +144,7 @@
         <div class="project-content">
 
           <div class="project-item">
-            <%= link_to image_path(('project/1.jpg'), :class => 'image-link') do %>
+            <%= link_to image_path('project/3.jpg'), :class => 'image-link' do %>
                 <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
