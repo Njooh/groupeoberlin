@@ -133,7 +133,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 .section-title {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .section-title h1 {
@@ -387,8 +387,9 @@ a:after, a:before, .btn.btn-primary i,
 
 .home-content {
     color: #fff;
-    padding-top: 155px;
-    height: 800px;
+    padding-top: 55px;
+    height: 380px;
+    background-color: rgba(44, 62, 80, 0.7);
 }
 
 .home-content h1 {
@@ -413,7 +414,7 @@ a:after, a:before, .btn.btn-primary i,
 /* Services */
 
 .services {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .services .service {
@@ -559,11 +560,12 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 #home-slider .item .btn-primary {
-    -webkit-transition: all 0.5s ease-in-out 0.65s;
-    -moz-transition: all 0.5s ease-in-out 0.65s;
-    -ms-transition: all 0.5s ease-in-out 0.65s;
-    -o-transition: all 0.5s ease-in-out 0.65s;
-    transition: all 0.5s ease-in-out 0.65s;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: solid rgba(255, 255, 255, 0.85) 1px;
 }
 
 .carousel-left i,
@@ -762,7 +764,10 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .service-section .services .overlay {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.99);
+    border: solid #364859 1px;
+    border-radius: 4px;
+
 }
 
 .service-section .service,
@@ -776,15 +781,25 @@ a:after, a:before, .btn.btn-primary i,
 
 .service-section .service h3 {
     color: #efbb20;
+    font-size: medium;
+}
+
+.service-section .service p {
+    color: #364859;
 }
 
 .service-section .service:hover .overlay {
     color: #fff;
-    background-color: #efbb20
+    background-color: #efbb20;
+    border: solid #efbb20 1px;
 }
 
 .service-section .service:hover h3 {
     color: #fff;
+}
+
+.service-section .service:hover p {
+    color: #364859;
 }
 
 /* Portfolio Section */
