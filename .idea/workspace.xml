@@ -18,13 +18,20 @@
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="712" column="38" lean-forward="false" selection-start-line="712" selection-start-column="38" selection-end-line="712" selection-end-column="38" />
+              <caret line="712" column="42" lean-forward="false" selection-start-line="712" selection-start-column="42" selection-end-line="712" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oberlin_style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logo_footer.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/logo_footer.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oberlin_style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/oberlin_style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
@@ -667,12 +674,12 @@
       <workItem from="1495112665066" duration="434000" />
       <workItem from="1495113161689" duration="43759000" />
       <workItem from="1495190995148" duration="1826000" />
-      <workItem from="1495442857121" duration="5399000" />
+      <workItem from="1495442857121" duration="6070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55323000" />
+    <option name="totallyTimeSpent" value="55994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -708,14 +715,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1040,20 +1039,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="712" column="38" lean-forward="false" selection-start-line="712" selection-start-column="38" selection-end-line="712" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/oberlin_style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="801" column="18" lean-forward="false" selection-start-line="801" selection-start-column="18" selection-end-line="801" selection-end-column="18" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="712" column="42" lean-forward="false" selection-start-line="712" selection-start-column="42" selection-end-line="712" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/logo_footer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
