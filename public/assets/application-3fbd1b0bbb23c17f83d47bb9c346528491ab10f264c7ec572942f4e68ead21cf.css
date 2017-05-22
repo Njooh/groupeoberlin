@@ -20637,7 +20637,7 @@ img.mfp-img {
 /* ========================================================================
  	Global
  ========================================================================== */
-/* line 41, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 41, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 html,
 body {
   font-family: 'montserratregular';
@@ -20649,26 +20649,26 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 52, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 52, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'montserratbold';
   font-weight: normal;
   letter-spacing: 1.5px;
 }
 
-/* line 58, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 58, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 64, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 64, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 a:hover {
   color: #efbb20;
 }
 
-/* line 68, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 68, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 a, a:hover, a:active,
 a:focus, button:focus, .btn:focus,
 .form-control:focus {
@@ -20677,7 +20677,7 @@ a:focus, button:focus, .btn:focus,
   box-shadow: none !important;
 }
 
-/* line 76, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 76, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .image-bg {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -20686,7 +20686,7 @@ a:focus, button:focus, .btn:focus,
   z-index: 1;
 }
 
-/* line 84, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 84, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .overlay {
   position: absolute;
   width: 100%;
@@ -20697,12 +20697,12 @@ a:focus, button:focus, .btn:focus,
   z-index: -1;
 }
 
-/* line 94, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 94, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 98, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 98, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .btn.btn-primary {
   color: #fff;
   font-size: 14px;
@@ -20715,7 +20715,7 @@ a:focus, button:focus, .btn:focus,
   font-family: 'montserratsemi_bold';
 }
 
-/* line 110, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 110, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .btn.btn-primary i {
   position: absolute;
   right: 0;
@@ -20727,31 +20727,31 @@ a:focus, button:focus, .btn:focus,
   background-color: #fff;
 }
 
-/* line 121, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 121, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .btn.btn-primary:hover {
   background-color: #fff;
   color: #283949;
   border: solid 1px #283949;
 }
 
-/* line 127, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 127, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .btn.btn-primary:hover i {
   color: #fff;
   background-color: #efbb20;
 }
 
-/* line 132, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 132, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .section-padding {
   padding-top: 75px;
   padding-bottom: 100px;
 }
 
-/* line 137, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 137, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .section-title {
   margin-bottom: 80px;
 }
 
-/* line 141, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 141, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .section-title h1 {
   font-size: 20px;
   text-transform: uppercase;
@@ -20759,7 +20759,7 @@ a:focus, button:focus, .btn:focus,
   letter-spacing: 2px;
 }
 
-/* line 148, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 148, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .section-title h2 {
   margin-top: 0;
   letter-spacing: 2px;
@@ -20767,24 +20767,24 @@ a:focus, button:focus, .btn:focus,
   font-family: 'montserratbold';
 }
 
-/* line 155, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 155, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 
-/* line 159, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 159, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-toggle {
   border-color: #283949;
 }
 
-/* line 163, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 163, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #283949;
 }
 
-/* line 169, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 169, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 a, .portfolio-overlay,
 .owl-prev, .owl-next,
 a:after, a:before, .btn.btn-primary i,
@@ -20799,7 +20799,7 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Header
  ========================================================================== */
-/* line 184, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 184, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .top-bar {
   background-color: #283949;
   padding: 10px 0;
@@ -20808,24 +20808,24 @@ a:after, a:before, .btn.btn-primary i,
   border-top: 1px solid #f3cc29;
 }
 
-/* line 192, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 192, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .info-box {
   display: inline-block;
   margin-right: 25px;
   font-size: 14px;
 }
 
-/* line 198, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 198, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .top-bar a {
   color: #ddd;
 }
 
-/* line 202, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 202, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .top-bar a:hover, .top-bar a:hover .info-box i {
   color: #efbb20;
 }
 
-/* line 206, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 206, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .info-box i {
   margin-right: 20px;
   margin-top: 7px;
@@ -20835,33 +20835,33 @@ a:after, a:before, .btn.btn-primary i,
   font-size: 36px;
 }
 
-/* line 215, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 215, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .info-text {
   overflow: hidden;
   font-weight: 300;
   display: inline-block;
 }
 
-/* line 221, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 221, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .info-text h5 {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 0px;
 }
 
-/* line 227, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 227, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .top-social li {
   margin: 0 5px;
 }
 
-/* line 231, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 231, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .top-social li a {
   font-size: 18px;
   line-height: 50px;
 }
 
 /* main Menu */
-/* line 238, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 238, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default {
   background-color: #fff;
   border: none;
@@ -20871,23 +20871,23 @@ a:after, a:before, .btn.btn-primary i,
   position: relative;
 }
 
-/* line 247, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 247, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default li {
   margin-left: 15px;
   z-index: 22;
 }
 
-/* line 252, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 252, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default li:first-child {
   margin-left: 0;
 }
 
-/* line 256, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 256, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-nav {
   float: none;
 }
 
-/* line 260, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 260, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #34404e;
   display: block;
@@ -20900,12 +20900,12 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratregular';
 }
 
-/* line 272, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 272, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #fff;
 }
 
-/* line 276, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 276, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -20924,18 +20924,18 @@ a:after, a:before, .btn.btn-primary i,
   background-color: transparent;
 }
 
-/* line 294, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 294, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-header {
   margin-top: 12px;
 }
 
 /*Dropdown CSS*/
-/* line 299, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 299, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-brand {
   padding: 0 15px;
 }
 
-/* line 303, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 303, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-nav > li > .dropdown-menu {
   padding: 12px 0;
   display: none;
@@ -20943,7 +20943,7 @@ a:after, a:before, .btn.btn-primary i,
   background-color: #fff;
 }
 
-/* line 310, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 310, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .navbar-nav > li:hover > ul.dropdown-menu {
   display: block;
   -webkit-animation: fadeInUp 400ms;
@@ -20953,20 +20953,20 @@ a:after, a:before, .btn.btn-primary i,
   animation: fadeInUp 400ms;
 }
 
-/* line 319, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 319, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .dropdown-menu > li {
   margin-left: 0;
   width: initial;
 }
 
-/* line 324, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 324, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .dropdown-menu > li > a {
   color: #34404e;
   font-size: 16px;
   padding: 7px 20px;
 }
 
-/* line 330, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 330, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   background-color: transparent;
@@ -21008,7 +21008,7 @@ a:after, a:before, .btn.btn-primary i,
     transform: translateY(0);
   }
 }
-/* line 377, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 377, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -21016,26 +21016,26 @@ a:after, a:before, .btn.btn-primary i,
 
 /*End Drpdown Menu CSS*/
 /* home */
-/* line 386, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 386, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-section {
   background-image: url(/assets/bg/2-7f0c795c3e716a1d95fb2f6554cb6989d1f3e49c70f3d192f8fa03bff9a841d5.jpg);
 }
 
-/* line 390, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 390, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-content {
   color: #fff;
   padding-top: 155px;
   height: 800px;
 }
 
-/* line 396, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 396, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-content h1 {
   font-size: 30px;
   text-transform: uppercase;
   font-family: 'montserratbold';
 }
 
-/* line 402, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 402, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-content h2 {
   font-size: 48px;
   margin-bottom: 20px;
@@ -21045,18 +21045,18 @@ a:after, a:before, .btn.btn-primary i,
   max-width: 870px;
 }
 
-/* line 411, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 411, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-content h2 span {
   color: #efbb20;
 }
 
 /* Services */
-/* line 417, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 417, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services {
   margin-top: 150px;
 }
 
-/* line 421, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 421, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services .service {
   padding: 15px 24px;
   font-size: 13px;
@@ -21064,13 +21064,13 @@ a:after, a:before, .btn.btn-primary i,
   min-height: 165px;
 }
 
-/* line 428, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 428, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .crane-lifting,
 .house-plans {
   position: relative;
 }
 
-/* line 433, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 433, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services .overlay {
   background-color: rgba(239, 187, 32, 0.85);
   -webkit-transition: all 0.4s ease-in-out;
@@ -21080,17 +21080,17 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.4s ease-in-out;
 }
 
-/* line 442, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 442, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service:hover .overlay {
   background-color: rgba(239, 187, 32, 0.99);
 }
 
-/* line 446, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 446, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .box-title {
   overflow: hidden;
 }
 
-/* line 450, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 450, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .box-title h3 {
   font-size: 18px;
   text-transform: uppercase;
@@ -21100,7 +21100,7 @@ a:after, a:before, .btn.btn-primary i,
   position: relative;
 }
 
-/* line 459, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 459, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .box-title h3:after {
   position: absolute;
   content: "";
@@ -21111,7 +21111,7 @@ a:after, a:before, .btn.btn-primary i,
   background-color: rgba(44, 62, 80, 0.2);
 }
 
-/* line 469, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 469, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .image-box {
   float: left;
   margin-top: 20px;
@@ -21120,14 +21120,14 @@ a:after, a:before, .btn.btn-primary i,
   position: relative;
 }
 
-/* line 477, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 477, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-title {
   background-color: #333333;
   padding: 25px;
   position: relative;
 }
 
-/* line 483, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 483, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-title h4 {
   color: #fff;
   text-align: center;
@@ -21139,7 +21139,7 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratbold';
 }
 
-/* line 494, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 494, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-title:after,
 .service-title:before {
   position: absolute;
@@ -21148,14 +21148,14 @@ a:after, a:before, .btn.btn-primary i,
   z-index: 1;
 }
 
-/* line 502, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 502, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-title:before {
   left: 0;
   border-right: 390px solid transparent;
   border-bottom: 26px solid #333333;
 }
 
-/* line 508, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 508, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-title:after {
   right: 0;
   border-left: 390px solid transparent;
@@ -21163,7 +21163,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 /*=========Carousel animation==========*/
-/* line 515, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 515, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #home-slider .item h1,
 #home-slider .item h2,
 #home-slider .item h2 span,
@@ -21176,7 +21176,7 @@ a:after, a:before, .btn.btn-primary i,
   transform: scale(0.5);
 }
 
-/* line 527, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 527, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #home-slider .item.active h1,
 #home-slider .item.active h2,
 #home-slider .item.active h2 span,
@@ -21189,7 +21189,7 @@ a:after, a:before, .btn.btn-primary i,
   transform: scale(1);
 }
 
-/* line 539, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 539, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #home-slider .item h1 {
   -webkit-transition: all 0.5s ease-in-out 0.15s;
   -moz-transition: all 0.5s ease-in-out 0.15s;
@@ -21198,7 +21198,7 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out 0.15s;
 }
 
-/* line 547, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 547, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #home-slider .item h2 {
   -webkit-transition: all 0.5s ease-in-out 0.30s;
   -moz-transition: all 0.5s ease-in-out 0.30s;
@@ -21207,7 +21207,7 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out 0.30s;
 }
 
-/* line 555, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 555, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #home-slider .item h2 span {
   -webkit-transition: all 0.5s ease-in-out 0.45s;
   -moz-transition: all 0.5s ease-in-out 0.45s;
@@ -21216,7 +21216,7 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out 0.45s;
 }
 
-/* line 563, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 563, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #home-slider .item .btn-primary {
   -webkit-transition: all 0.5s ease-in-out 0.65s;
   -moz-transition: all 0.5s ease-in-out 0.65s;
@@ -21225,7 +21225,7 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out 0.65s;
 }
 
-/* line 571, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 571, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-left i,
 .carousel-right i {
   position: absolute;
@@ -21253,33 +21253,33 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.4s ease-in-out;
 }
 
-/* line 598, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 598, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-left i {
   left: 0px;
 }
 
-/* line 602, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 602, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-right i {
   right: 0px;
 }
 
-/* line 606, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 606, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-left i:hover, .carousel-right i:hover {
   background-color: rgba(239, 187, 32, 0.85);
 }
 
-/* line 610, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 610, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-section:hover .carousel-left i {
   opacity: 1;
 }
 
-/* line 614, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 614, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .home-section:hover .carousel-right i {
   opacity: 1;
 }
 
 /*=========Carousel Fade==========*/
-/* line 620, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 620, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-fade .carousel-inner .item {
   left: 10%;
   opacity: 0;
@@ -21291,12 +21291,12 @@ a:after, a:before, .btn.btn-primary i,
   background-size: cover;
 }
 
-/* line 631, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 631, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
 
-/* line 635, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 635, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
@@ -21304,34 +21304,34 @@ a:after, a:before, .btn.btn-primary i,
   z-index: 1;
 }
 
-/* line 642, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 642, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
 
-/* line 647, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 647, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-fade .carousel-control {
   z-index: 2;
 }
 
 /* Featured Section */
-/* line 653, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 653, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .features-section {
   background-color: #f4f4f4;
 }
 
-/* line 657, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 657, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .features-section.section-padding {
   padding-bottom: 50px;
 }
 
-/* line 661, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 661, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .features {
   margin-bottom: 60px;
 }
 
-/* line 665, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 665, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .feature-icon {
   height: 70px;
   width: 70px;
@@ -21348,73 +21348,73 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 681, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 681, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .feature-icon i {
   line-height: 67px;
 }
 
-/* line 685, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 685, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .feature-text {
   overflow: hidden;
 }
 
-/* line 689, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 689, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .feature-text h4 {
   margin-top: 0;
 }
 
-/* line 693, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 693, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .features:hover .feature-icon {
   background-color: #2c3e50;
 }
 
-/* line 697, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 697, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .features:hover .feature-text h4 {
   color: #34404e;
 }
 
 /* Work Process */
-/* line 703, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 703, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .work-process {
   background-image: url(/assets/bg/3-045e602306728e89fef863b7bd3300523c5668f7c22e7a9d940f1cb2ed200ccf.jpg);
 }
 
-/* line 707, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 707, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .work-process .overlay {
   background-color: rgba(44, 62, 80, 0.9);
 }
 
-/* line 711, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 711, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .work-process .section-title {
   color: #fff;
 }
 
-/* line 715, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 715, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .work-proces {
   padding: 0 35px;
 }
 
-/* line 719, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 719, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .process-image {
   margin-top: -80px;
   text-align: center;
 }
 
-/* line 724, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 724, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .process-icon {
   float: left;
   margin-right: 30px;
   margin-top: 35px;
 }
 
-/* line 730, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 730, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .left-content .process-icon {
   float: right;
   margin-right: 0;
   margin-left: 35px;
 }
 
-/* line 736, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 736, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .work-process .process-info {
   color: #fff;
   padding-top: 20px;
@@ -21422,38 +21422,38 @@ a:after, a:before, .btn.btn-primary i,
   overflow: hidden;
 }
 
-/* line 743, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 743, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .process-info h4 {
   font-family: 'montserratsemi_bold';
 }
 
 /* Service Section  */
-/* line 749, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 749, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section {
   background-color: #f9f9f9;
 }
 
-/* line 753, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 753, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section.section-padding {
   padding-bottom: 80px;
 }
 
-/* line 757, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 757, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .services {
   margin-top: 0;
 }
 
-/* line 761, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 761, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .service {
   margin-bottom: 30px;
 }
 
-/* line 766, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 766, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .services .overlay {
   background-color: #fff;
 }
 
-/* line 770, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 770, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .service,
 .service-section .service h3, .service-section .service:hover .overlay {
   -webkit-transition: all 0.5s ease-in-out;
@@ -21463,24 +21463,24 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 779, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 779, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .service h3 {
   color: #efbb20;
 }
 
-/* line 783, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 783, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .service:hover .overlay {
   color: #fff;
   background-color: #efbb20;
 }
 
-/* line 788, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 788, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .service-section .service:hover h3 {
   color: #fff;
 }
 
 /* Portfolio Section */
-/* line 794, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 794, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-title {
   color: #fff;
   padding-top: 55px;
@@ -21490,14 +21490,14 @@ a:after, a:before, .btn.btn-primary i,
   background-position: center center;
 }
 
-/* line 803, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 803, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-section .owl-nav {
   position: absolute;
   right: 20%;
   top: -116px;
 }
 
-/* line 809, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 809, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-section .owl-prev,
 .portfolio-section .owl-next {
   position: absolute;
@@ -21512,34 +21512,34 @@ a:after, a:before, .btn.btn-primary i,
   background-color: #f3cc29;
 }
 
-/* line 823, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 823, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-section .owl-prev {
   right: 41px;
 }
 
-/* line 827, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 827, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-section .owl-prev:hover,
 .portfolio-section .owl-next:hover {
   background-color: #fff;
   color: #34404e;
 }
 
-/* line 833, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 833, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-title .section-title {
   margin-bottom: 0;
 }
 
-/* line 837, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 837, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-title .overlay {
   background-color: rgba(54, 72, 89, 0.92);
 }
 
-/* line 841, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 841, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content {
   margin-bottom: 30px;
 }
 
-/* line 845, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 845, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-title,
 .project-content .project-info {
   padding: 25px 20px 20px;
@@ -21554,14 +21554,14 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 859, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 859, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content:hover .project-title,
 .project-content:hover .project-info {
   box-shadow: none;
   webkit-box-shadow: none;
 }
 
-/* line 865, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 865, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-title h3 {
   font-weight: 700;
   font-size: 20px;
@@ -21574,30 +21574,30 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.3s ease-in-out;
 }
 
-/* line 877, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 877, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-title h3 a {
   color: inherit;
 }
 
-/* line 881, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 881, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content:hover .project-title h3 a {
   color: #efbb20;
 }
 
-/* line 885, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 885, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-info {
   border-top: 0;
   border-bottom: 1px solid #d7d7d7;
   color: #6d6d6d;
 }
 
-/* line 891, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 891, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-item {
   position: relative;
   background-color: #fff;
 }
 
-/* line 896, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 896, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-item a:after {
   position: absolute;
   content: "";
@@ -21619,7 +21619,7 @@ a:after, a:before, .btn.btn-primary i,
   opacity: 0;
 }
 
-/* line 917, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 917, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .project-content .project-item a:hover:after {
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
@@ -21629,7 +21629,7 @@ a:after, a:before, .btn.btn-primary i,
   opacity: 1;
 }
 
-/* line 926, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 926, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #project-menu {
   text-align: center;
   margin-bottom: 50px;
@@ -21638,7 +21638,7 @@ a:after, a:before, .btn.btn-primary i,
   overflow: hidden;
 }
 
-/* line 934, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 934, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #project-menu li {
   float: left;
   font-size: 18px;
@@ -21652,19 +21652,19 @@ a:after, a:before, .btn.btn-primary i,
   cursor: pointer;
 }
 
-/* line 947, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 947, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #project-menu li:hover,
 #project-menu li.cbp-filter-item-active {
   color: #efbb20;
   background-color: #f1f1f1;
 }
 
-/* line 953, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 953, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #project-menu li:first-child {
   border-left: 0;
 }
 
-/* line 957, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 957, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #projects .project-content {
   width: 33%;
   float: left;
@@ -21673,17 +21673,17 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 /* Team Section */
-/* line 966, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 966, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-member:hover h4 {
   color: #efbb20;
 }
 
-/* line 970, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 970, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-member img {
   display: inline-block;
 }
 
-/* line 974, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 974, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-member h4 {
   margin-bottom: 2px;
   text-transform: uppercase;
@@ -21694,45 +21694,45 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.3s ease-in-out;
 }
 
-/* line 984, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 984, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .member-info {
   margin: 20px 0 15px;
 }
 
-/* line 988, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 988, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-social {
   margin-top: 15px;
 }
 
-/* line 992, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 992, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-social li {
   margin-right: 10px;
 }
 
-/* line 996, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 996, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-social li a {
   display: block;
   font-size: 16px;
   color: #6f6f6f;
 }
 
-/* line 1002, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1002, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .team-social li a:hover {
   color: #efbb20;
 }
 
 /* Testimonial Section */
-/* line 1008, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1008, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-section {
   background-image: url(/assets/bg/5-0ac01ae62cb3536f7c5c072691d80d6b418dbb331f996b05c5a07a3cfab22048.jpg);
 }
 
-/* line 1012, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1012, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-section .overlay {
   background-color: rgba(44, 62, 80, 0.9);
 }
 
-/* line 1016, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1016, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial {
   color: #fff;
   font-size: 13px;
@@ -21744,12 +21744,12 @@ a:after, a:before, .btn.btn-primary i,
   position: relative;
 }
 
-/* line 1027, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1027, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-image {
   margin-bottom: 15px;
 }
 
-/* line 1031, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1031, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-image img {
   display: inline-block !important;
   border-radius: 50%;
@@ -21757,34 +21757,34 @@ a:after, a:before, .btn.btn-primary i,
   width: 85px !important;
 }
 
-/* line 1038, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1038, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial h5 {
   color: #f3cc29;
   font-size: 13px;
   margin-top: 15px;
 }
 
-/* line 1044, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1044, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-info {
   padding: 20px;
 }
 
-/* line 1048, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1048, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .left-content .testimonial-info {
   margin-left: 70px;
 }
 
-/* line 1052, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1052, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .right-content .testimonial-info {
   margin-right: 70px;
 }
 
-/* line 1056, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1056, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .left-content .testimonial .testimonial-icon {
   left: 15px;
 }
 
-/* line 1060, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1060, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-slider .owl-dots {
   text-align: center;
   z-index: 99;
@@ -21794,13 +21794,13 @@ a:after, a:before, .btn.btn-primary i,
   margin-left: -30px;
 }
 
-/* line 1069, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1069, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-slider .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
 }
 
-/* line 1074, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1074, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-slider .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
@@ -21811,7 +21811,7 @@ a:after, a:before, .btn.btn-primary i,
   border-radius: 50px;
 }
 
-/* line 1084, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1084, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .testimonial-slider .owl-dots .owl-dot.active span,
 .testimonial-slider .owl-dots .owl-dot:hover span {
   background-color: #f3cc29;
@@ -21819,23 +21819,23 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 /* Blog Section */
-/* line 1091, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1091, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-section.section-padding {
   padding-bottom: 70px;
 }
 
-/* line 1095, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1095, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-image,
 .entry-post {
   position: relative;
 }
 
-/* line 1100, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1100, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-post {
   margin-bottom: 30px;
 }
 
-/* line 1104, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1104, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content {
   margin-bottom: 8px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -21845,12 +21845,12 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 1113, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1113, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .entry-thumbnail {
   position: relative;
 }
 
-/* line 1117, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1117, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content .time {
   position: absolute;
   bottom: 50%;
@@ -21868,7 +21868,7 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 1134, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1134, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .entry-header:hover .time {
   bottom: 0;
   margin-bottom: 0px;
@@ -21879,19 +21879,19 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 1144, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1144, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content .time span {
   font-size: 18px;
 }
 
-/* line 1148, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1148, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content .time h2 {
   margin: 0;
   line-height: 24px;
   text-transform: uppercase;
 }
 
-/* line 1154, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1154, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .entry-title {
   margin-bottom: 17px;
   text-transform: capitalize;
@@ -21899,12 +21899,12 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratsemi_bold';
 }
 
-/* line 1161, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1161, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .entry-title a {
   color: #2c3e50;
 }
 
-/* line 1165, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1165, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content .entry-meta {
   margin-top: 25px;
   margin-bottom: 20px;
@@ -21912,35 +21912,35 @@ a:after, a:before, .btn.btn-primary i,
   border-bottom: 1px solid #d6d6d6;
 }
 
-/* line 1172, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1172, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content .entry-meta i {
   font-size: 14px;
   margin-right: 5px;
 }
 
-/* line 1177, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1177, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-content li {
   margin-left: 5px;
 }
 
-/* line 1181, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1181, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-content li:first-child {
   margin-left: 0;
 }
 
-/* line 1185, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1185, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content li a {
   color: #777;
   font-size: 12px;
 }
 
-/* line 1190, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1190, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .entry-title a:hover,
 .blog-content li a:hover {
   color: #f3cc29;
 }
 
-/* line 1195, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1195, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-content .entry-post {
   padding-top: 25px;
   color: #6f6f6f;
@@ -21948,12 +21948,12 @@ a:after, a:before, .btn.btn-primary i,
   line-height: 30px;
 }
 
-/* line 1202, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1202, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .pagination {
   margin-top: 30px;
 }
 
-/* line 1206, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1206, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .pagination > li > a, .pagination > li > span {
   padding: 12px 28px;
   color: #999;
@@ -21962,7 +21962,7 @@ a:after, a:before, .btn.btn-primary i,
   font-weight: bold;
 }
 
-/* line 1214, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1214, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .pagination > li > a:hover, .pagination > li > span:hover,
 .pagination > li > a:focus, .pagination > li > span:focus,
 .pagination > li.active > a,
@@ -21978,22 +21978,22 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 /* Clients Section */
-/* line 1230, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1230, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .cta-section {
   background-image: url(/assets/bg/brand-bg-05ecd8eb261e7d7c69f0ca6acf723e7b53c6439ba446305997fdc2dbfae49c35.jpg);
 }
 
-/* line 1234, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1234, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .clients-section .overlay {
   background-color: rgba(229, 229, 229, 0.9);
 }
 
-/* line 1238, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1238, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .brand-item {
   padding: 70px 50px;
 }
 
-/* line 1242, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1242, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .brand-image {
   background-color: rgba(255, 255, 255, 0.4);
   margin: 0 15px;
@@ -22001,12 +22001,12 @@ a:after, a:before, .btn.btn-primary i,
   text-align: center;
 }
 
-/* line 1249, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1249, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .brand-image img {
   display: inline-block;
 }
 
-/* line 1253, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1253, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .call-to-action {
   font-size: 14px;
   color: #fff;
@@ -22015,7 +22015,7 @@ a:after, a:before, .btn.btn-primary i,
   background-color: rgba(229, 229, 229, 0.97);
 }
 
-/* line 1261, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1261, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .call-to-action h3 {
   color: #6f6f6f;
   text-transform: uppercase;
@@ -22025,7 +22025,7 @@ a:after, a:before, .btn.btn-primary i,
   float: left;
 }
 
-/* line 1270, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1270, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .call-to-action .btn.btn-primary {
   margin-top: 8px;
   float: right;
@@ -22034,47 +22034,47 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Footer
  ========================================================================== */
-/* line 1279, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1279, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-section {
   background-color: #273747;
   padding: 50px 0;
   color: #999;
 }
 
-/* line 1285, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1285, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-section h3 {
   color: #fff;
   margin-bottom: 25px;
 }
 
-/* line 1290, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1290, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .footer-social li + li {
   margin-left: 15px;
 }
 
-/* line 1298, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1298, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget ul {
   float: left;
   width: 48%;
 }
 
-/* line 1303, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1303, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget li {
   margin-bottom: 10px;
 }
 
-/* line 1307, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1307, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget a {
   color: #999;
 }
 
-/* line 1311, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1311, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget .footer-social li {
   margin: 0;
   margin-right: 10px;
 }
 
-/* line 1316, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1316, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .footer-social a {
   font-size: 20px;
   color: #999;
@@ -22085,52 +22085,52 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 1326, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1326, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .footer-social a:hover, .contact-widget a:hover, .contact-widget span {
   color: #efbb20;
 }
 
-/* line 1330, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1330, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget span {
   font-family: 'montserratsemi_bold';
 }
 
-/* line 1334, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1334, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget address ul,
 .contact-widget ul.footer-social {
   float: none;
   width: 100%;
 }
 
-/* line 1340, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1340, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget .address {
   overflow: hidden;
   display: block;
 }
 
-/* line 1345, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1345, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget address {
   margin-bottom: 5px;
 }
 
-/* line 1349, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1349, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-widget address span {
   color: #999;
   font-weight: bold;
 }
 
-/* line 1355, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1355, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .copyright-text {
   padding: 15px 0 5px;
 }
 
-/* line 1359, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1359, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .copyright-text a {
   color: #34404e;
   font-weight: bold;
 }
 
-/* line 1364, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1364, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .copyright-text a:hover {
   color: #efbb20;
 }
@@ -22138,7 +22138,7 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	About Us Page Css
  ========================================================================== */
-/* line 1372, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1372, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb-section {
   background-image: url(/assets/bg/4-8e81f34eeb90829546bb2fceab2d41243906011ad114e1854382f8f2bbe081d2.jpg);
   background-position: center center;
@@ -22148,18 +22148,18 @@ a:after, a:before, .btn.btn-primary i,
   border-radius: 0;
 }
 
-/* line 1381, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1381, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb-section .overlay {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 1385, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1385, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb-content {
   color: #fff;
   font-size: 15px;
 }
 
-/* line 1390, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1390, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb-content h1 {
   margin-top: 0;
   text-transform: uppercase;
@@ -22168,78 +22168,78 @@ a:after, a:before, .btn.btn-primary i,
   float: left;
 }
 
-/* line 1398, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1398, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb-content h1 span,
 .breadcrumb-content h2 span {
   color: #f2cd27;
   font-family: 'montserratextra_bold';
 }
 
-/* line 1404, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1404, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb {
   background-color: transparent;
   float: right;
 }
 
-/* line 1409, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1409, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb a {
   color: #fff;
 }
 
-/* line 1413, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1413, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .breadcrumb a:hover {
   color: #efbb20;
 }
 
-/* line 1417, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1417, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-section {
   background-color: #f9f9f9;
 }
 
-/* line 1421, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1421, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-section-content {
   line-height: 24px;
 }
 
-/* line 1425, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1425, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-section-content h2 {
   margin-bottom: 25px;
 }
 
-/* line 1429, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1429, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-section-content p {
   margin-bottom: 20px;
 }
 
-/* line 1433, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1433, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-us-image {
   margin-top: 78px;
 }
 
-/* line 1437, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1437, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info {
   font-size: 13px;
   line-height: 30px;
   margin-left: 30px;
 }
 
-/* line 1443, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1443, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-content {
   overflow: hidden;
 }
 
-/* line 1447, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1447, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info h1 {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-/* line 1452, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1452, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info h1 span {
   color: #f3cc29;
 }
 
-/* line 1456, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1456, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .info-list {
   margin-top: 30px;
   margin-bottom: 35px;
@@ -22247,12 +22247,12 @@ a:after, a:before, .btn.btn-primary i,
   font-size: 13px;
 }
 
-/* line 1463, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1463, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .info-list li {
   margin-bottom: 15px;
 }
 
-/* line 1467, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1467, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .info-list i {
   width: 20px;
   height: 20px;
@@ -22266,34 +22266,34 @@ a:after, a:before, .btn.btn-primary i,
   background-color: #f3cc29;
 }
 
-/* line 1480, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1480, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .btn.btn-primary {
   color: #2c3e50;
 }
 
-/* line 1484, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1484, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .btn.btn-primary:hover {
   color: #fff;
 }
 
-/* line 1488, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1488, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .btn.btn-primary i {
   background-color: #2c3e50;
   color: #fff;
 }
 
-/* line 1493, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1493, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .about-info .btn.btn-primary:hover i {
   background-color: #f3cc29;
   color: #2c3e50;
 }
 
-/* line 1498, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1498, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-section {
   padding-bottom: 0;
 }
 
-/* line 1502, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1502, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel {
   float: right;
   border: 5px solid #f5f6f7;
@@ -22313,7 +22313,7 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.3s ease-in-out;
 }
 
-/* line 1521, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1521, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-overlay {
   position: absolute;
   top: 0;
@@ -22329,18 +22329,18 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.3s ease-in-out;
 }
 
-/* line 1536, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1536, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel:hover {
   color: #fff;
 }
 
-/* line 1540, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1540, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel:hover .timline-overlay {
   opacity: 1;
   background-color: rgba(44, 62, 80, 0.9);
 }
 
-/* line 1545, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1545, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel:after {
   position: absolute;
   content: "\f063";
@@ -22351,18 +22351,18 @@ a:after, a:before, .btn.btn-primary i,
   font-family: fontawesome;
 }
 
-/* line 1555, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1555, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-bottom .timline-panel:after {
   top: -23px;
   content: "\f062";
 }
 
-/* line 1560, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1560, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel:hover:after {
   color: #2c3e50;
 }
 
-/* line 1564, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1564, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel h4 {
   text-align: center;
   text-transform: uppercase;
@@ -22370,18 +22370,18 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratsemi_bold';
 }
 
-/* line 1571, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1571, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel:hover h4 {
   color: #fff;
 }
 
-/* line 1575, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1575, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .timline-panel h4, .timline-panel p {
   position: relative;
   z-index: 2;
 }
 
-/* line 1580, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1580, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -22389,12 +22389,12 @@ a:after, a:before, .btn.btn-primary i,
   z-index: 9999;
 }
 
-/* line 1587, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1587, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date .posted {
   margin: 0;
 }
 
-/* line 1591, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1591, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date:before {
   position: absolute;
   content: "";
@@ -22406,7 +22406,7 @@ a:after, a:before, .btn.btn-primary i,
   z-index: 1;
 }
 
-/* line 1602, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1602, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date:after {
   position: absolute;
   content: "";
@@ -22417,7 +22417,7 @@ a:after, a:before, .btn.btn-primary i,
   border-left: 10px solid #fcd846;
 }
 
-/* line 1612, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1612, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date .posted:after {
   position: absolute;
   content: "";
@@ -22429,7 +22429,7 @@ a:after, a:before, .btn.btn-primary i,
   z-index: -1;
 }
 
-/* line 1623, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1623, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date .posted:before {
   position: absolute;
   content: "";
@@ -22440,18 +22440,18 @@ a:after, a:before, .btn.btn-primary i,
   background-color: #fff;
 }
 
-/* line 1633, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1633, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li + li {
   margin-left: 25%;
 }
 
-/* line 1637, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1637, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li {
   position: relative;
   z-index: 1;
 }
 
-/* line 1642, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1642, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date .year {
   border: 4px solid #d5d8dc;
   padding: 2px 30px;
@@ -22460,7 +22460,7 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratsemi_bold';
 }
 
-/* line 1650, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1650, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:before,
 .posted-date li:after {
   position: absolute;
@@ -22477,32 +22477,32 @@ a:after, a:before, .btn.btn-primary i,
   border: 2px solid #fff;
 }
 
-/* line 1666, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1666, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:before {
   right: -75px;
 }
 
-/* line 1670, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1670, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:first-child:before {
   right: -92px;
 }
 
-/* line 1674, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1674, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:last-child:before {
   right: -55px;
 }
 
-/* line 1678, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1678, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:first-child:after {
   right: -195px;
 }
 
-/* line 1682, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1682, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:after {
   right: -172px;
 }
 
-/* line 1686, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1686, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .posted-date li:last-child:after {
   display: none;
 }
@@ -22511,44 +22511,44 @@ a:after, a:before, .btn.btn-primary i,
  	Features Page Css
  ========================================================================== */
 /* Skills Section */
-/* line 1696, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1696, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-section {
   background-color: #eeeeee;
   max-height: 620px;
   overflow: hidden;
 }
 
-/* line 1702, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1702, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-image img {
   width: 100%;
 }
 
-/* line 1706, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1706, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-info .section-title {
   font-size: 13px;
   line-height: 30px;
   margin-bottom: 30px;
 }
 
-/* line 1712, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1712, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-info .section-title h2 {
   margin-bottom: 25px;
 }
 
-/* line 1716, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1716, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-info {
   max-width: 600px;
   padding: 50px 30px;
 }
 
-/* line 1721, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1721, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-info label {
   font-size: 15px;
   margin-bottom: 20px;
   font-family: 'montserratsemi_bold';
 }
 
-/* line 1727, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1727, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .skills-info .progress {
   height: 9px;
   border-radius: 0;
@@ -22556,7 +22556,7 @@ a:after, a:before, .btn.btn-primary i,
   margin-bottom: 30px;
 }
 
-/* line 1734, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1734, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .progress-bar {
   background-color: #fcd846;
   box-shadow: none;
@@ -22565,19 +22565,19 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Services Page Css
  ========================================================================== */
-/* line 1743, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1743, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section.section-padding {
   padding-top: 90px;
   padding-bottom: 80px;
 }
 
-/* line 1748, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1748, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item {
   background-color: #2c3e50;
   padding: 50px;
 }
 
-/* line 1753, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1753, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item h4 {
   color: #fff;
   margin-top: 45px;
@@ -22589,12 +22589,12 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.5s ease-in-out;
 }
 
-/* line 1764, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1764, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item img {
   display: inline-block;
 }
 
-/* line 1768, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1768, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-middle {
   border: 10px solid #415161;
   margin-right: 1px;
@@ -22602,18 +22602,18 @@ a:after, a:before, .btn.btn-primary i,
   margin-top: -10px;
 }
 
-/* line 1775, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1775, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item:hover h4 {
   color: #f3cc29;
 }
 
-/* line 1779, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1779, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-left,
 .services-section .item.item-right {
   position: relative;
 }
 
-/* line 1784, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1784, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-left:before,
 .services-section .item.item-left:after,
 .services-section .item.item-right:before,
@@ -22622,39 +22622,39 @@ a:after, a:before, .btn.btn-primary i,
   content: "";
 }
 
-/* line 1792, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1792, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-left:before,
 .services-section .item.item-left:after {
   border-left: 390px solid transparent;
   right: 0;
 }
 
-/* line 1798, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1798, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-left:before {
   top: -10px;
   border-bottom: 10px solid #2c3e50;
 }
 
-/* line 1803, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1803, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-left:after {
   bottom: -10px;
   border-top: 10px solid #2c3e50;
 }
 
-/* line 1808, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1808, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-right:before,
 .services-section .item.item-right:after {
   left: 0;
   border-right: 390px solid transparent;
 }
 
-/* line 1814, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1814, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-right:before {
   top: -10px;
   border-bottom: 10px solid #2c3e50;
 }
 
-/* line 1819, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1819, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .services-section .item.item-right:after {
   bottom: -10px;
   border-top: 10px solid #2c3e50;
@@ -22663,23 +22663,23 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Project Page Css
  ========================================================================== */
-/* line 1828, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1828, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu {
   margin-bottom: 80px;
   overflow: hidden;
 }
 
-/* line 1833, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1833, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu li {
   float: left;
 }
 
-/* line 1837, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1837, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu li + li {
   margin-left: 1px;
 }
 
-/* line 1841, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1841, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu a {
   color: #fff;
   display: block;
@@ -22689,19 +22689,19 @@ a:after, a:before, .btn.btn-primary i,
   text-transform: capitalize;
 }
 
-/* line 1850, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1850, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu a.active,
 .portfoli-menu a:hover {
   background-color: #2c3e50;
 }
 
-/* line 1855, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1855, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu li:first-child,
 .portfoli-menu li:last-child {
   position: relative;
 }
 
-/* line 1860, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1860, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu li:first-child:after,
 .portfoli-menu li:last-child:after {
   position: absolute;
@@ -22709,26 +22709,26 @@ a:after, a:before, .btn.btn-primary i,
   bottom: 0;
 }
 
-/* line 1867, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1867, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu li:first-child:after {
   left: 0;
   border-right: 180px solid transparent;
   border-bottom: 10px solid #fff;
 }
 
-/* line 1873, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1873, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfoli-menu li:last-child:after {
   right: 0;
   border-left: 180px solid transparent;
   border-bottom: 10px solid #fff;
 }
 
-/* line 1879, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1879, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-two {
   margin-bottom: 50px;
 }
 
-/* line 1883, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1883, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .portfolio-two .portfolio {
   margin-bottom: 30px;
 }
@@ -22736,12 +22736,12 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Project Details Page Css
  ========================================================================== */
-/* line 1891, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1891, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel {
   margin-top: 20px;
 }
 
-/* line 1895, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1895, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel .carousel-controls {
   position: relative;
   top: 100%;
@@ -22750,7 +22750,7 @@ a:after, a:before, .btn.btn-primary i,
   margin-top: 21px;
 }
 
-/* line 1903, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1903, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-controls .carousel-indicators {
   display: block;
   left: 0;
@@ -22763,7 +22763,7 @@ a:after, a:before, .btn.btn-primary i,
   bottom: inherit;
 }
 
-/* line 1915, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1915, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel .carousel-indicators li,
 #product-carousel .carousel-indicators li.active {
   width: 105px;
@@ -22772,13 +22772,13 @@ a:after, a:before, .btn.btn-primary i,
   margin: 6px;
 }
 
-/* line 1923, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1923, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel .carousel-indicators li {
   border: 2px solid #f6f6f6;
   position: relative;
 }
 
-/* line 1928, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1928, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel .carousel-indicators li:before {
   position: absolute;
   content: "";
@@ -22790,19 +22790,19 @@ a:after, a:before, .btn.btn-primary i,
   opacity: 0;
 }
 
-/* line 1939, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1939, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel .carousel-indicators li:hover:before,
 #product-carousel .carousel-indicators li.active:before {
   opacity: 1;
 }
 
-/* line 1944, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1944, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #product-carousel .carousel-indicators li:hover,
 #product-carousel .carousel-indicators li.active {
   border: 2px solid #f3cc29;
 }
 
-/* line 1949, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1949, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-controls .carousel-arrow {
   position: absolute;
   width: 100%;
@@ -22810,7 +22810,7 @@ a:after, a:before, .btn.btn-primary i,
   z-index: 100;
 }
 
-/* line 1956, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1956, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-controls .carousel-arrow .left,
 .carousel-controls .carousel-arrow .right {
   position: absolute;
@@ -22828,29 +22828,29 @@ a:after, a:before, .btn.btn-primary i,
   opacity: 0.9;
 }
 
-/* line 1973, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1973, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-controls .carousel-arrow .left {
   left: 0;
 }
 
-/* line 1977, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1977, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-controls .carousel-arrow .right {
   right: 0;
 }
 
-/* line 1981, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1981, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .carousel-controls .carousel-arrow .left:hover,
 .carousel-controls .carousel-arrow .right:hover {
   background-color: #f3cc29;
 }
 
-/* line 1986, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1986, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-info {
   line-height: 28px;
   color: #6f6f6f;
 }
 
-/* line 1991, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1991, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-info h2 {
   font-size: 22px;
   margin-bottom: 20px;
@@ -22859,13 +22859,13 @@ a:after, a:before, .btn.btn-primary i,
   color: #2c3e50;
 }
 
-/* line 1999, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 1999, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 2004, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2004, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list li {
   margin-top: 10px;
   font-size: 16px;
@@ -22874,12 +22874,12 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratregular';
 }
 
-/* line 2012, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2012, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list li p {
   margin-bottom: 0;
 }
 
-/* line 2016, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2016, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list li span {
   display: block;
   font-size: 13px;
@@ -22887,40 +22887,40 @@ a:after, a:before, .btn.btn-primary i,
   color: #6f6f6f;
 }
 
-/* line 2023, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2023, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list li span.cateagory {
   display: inline-block;
   margin-right: 3px;
 }
 
-/* line 2028, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2028, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list li span.cateagory a {
   color: #6f6f6f;
 }
 
-/* line 2032, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2032, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-list li span.cateagory a:hover {
   color: #f3cc29;
 }
 
-/* line 2036, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2036, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-project {
   float: left;
   margin-right: 25px;
   margin-top: 10px;
 }
 
-/* line 2042, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2042, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-social {
   margin-top: 10px;
 }
 
-/* line 2046, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2046, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-social li + li {
   margin-left: 20px;
 }
 
-/* line 2050, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2050, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-social li {
   border-left: 0;
   margin-top: 0;
@@ -22928,29 +22928,29 @@ a:after, a:before, .btn.btn-primary i,
   letter-spacing: 0;
 }
 
-/* line 2057, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2057, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-social i {
   color: #999;
   font-size: 14px;
 }
 
-/* line 2062, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2062, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-social i:hover {
   color: #69f;
 }
 
-/* line 2066, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2066, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-info .btn.btn-primary {
   color: #2c3e50;
   width: 100%;
 }
 
-/* line 2071, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2071, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-info .btn.btn-primary:hover {
   color: #fff;
 }
 
-/* line 2075, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2075, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-info .btn.btn-primary i {
   font-size: 24px;
   color: #fff;
@@ -22958,32 +22958,32 @@ a:after, a:before, .btn.btn-primary i,
   background-color: #2c3e50;
 }
 
-/* line 2082, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2082, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-info .btn.btn-primary:hover i {
   color: #2c3e50;
   background-color: #f3cc29;
 }
 
-/* line 2087, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2087, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-slider {
   border-top: 1px solid #ececec;
   margin-top: 50px;
   padding-top: 20px;
 }
 
-/* line 2093, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2093, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-section {
   background-color: #f1f1f1;
 }
 
-/* line 2097, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2097, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .details-section .owl-prev,
 .details-section .owl-next {
   position: absolute;
   top: 0;
 }
 
-/* line 2103, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2103, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next {
   border-top: 2px solid #ececec;
   overflow: hidden;
@@ -22991,49 +22991,49 @@ a:after, a:before, .btn.btn-primary i,
   text-transform: capitalize;
 }
 
-/* line 2110, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2110, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next a {
   color: #999;
   font-size: 15px;
 }
 
-/* line 2115, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2115, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next a i {
   font-size: 14px;
 }
 
-/* line 2119, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2119, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next a:hover {
   color: #f3cc29;
 }
 
-/* line 2123, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2123, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next .prev {
   display: inline-block;
   float: left;
 }
 
-/* line 2128, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2128, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next .next {
   float: right;
 }
 
-/* line 2132, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2132, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next .next i {
   margin-left: 10px;
 }
 
-/* line 2136, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2136, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next .prev i {
   margin-right: 10px;
 }
 
-/* line 2140, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2140, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .prev-next {
   padding-top: 30px;
 }
 
-/* line 2144, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2144, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .indicator-icon i {
   border: 2px solid #e5e5e5;
   color: #ccc;
@@ -23046,12 +23046,12 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Blog Page Css
  ========================================================================== */
-/* line 2157, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2157, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blogNnews .blog-content {
   margin-top: 100px;
 }
 
-/* line 2161, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2161, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blogNnews .prev-next {
   margin-bottom: 100px;
   margin-top: 80px;
@@ -23060,23 +23060,23 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Blog Details page CSS
  ========================================================================== */
-/* line 2170, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2170, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details {
   padding-top: 85px;
   padding-bottom: 70px;
 }
 
-/* line 2175, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2175, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .entry-meta {
   padding: 10px 0;
 }
 
-/* line 2179, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2179, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .entry-meta li {
   margin-right: 10px;
 }
 
-/* line 2183, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2183, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .entry-title {
   margin-top: 45px;
   margin-bottom: 20px;
@@ -23084,32 +23084,32 @@ a:after, a:before, .btn.btn-primary i,
   color: #2c3e50;
 }
 
-/* line 2190, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2190, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post {
   border: 0;
   padding: 0;
   padding-bottom: 15px;
 }
 
-/* line 2196, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2196, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post li + li {
   margin-left: 5px;
   padding-left: 15px;
   border-left: 2px solid #999;
 }
 
-/* line 2202, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2202, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post a {
   color: #999;
 }
 
-/* line 2206, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2206, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post-content {
   font-size: 13px;
   line-height: 30px;
 }
 
-/* line 2211, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2211, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-content blockquote {
   font-size: 16px;
   color: #34404e;
@@ -23120,7 +23120,7 @@ a:after, a:before, .btn.btn-primary i,
   position: relative;
 }
 
-/* line 2221, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2221, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-content blockquote i {
   font-size: 24px;
   color: #f3cc29;
@@ -23129,12 +23129,12 @@ a:after, a:before, .btn.btn-primary i,
   left: 0;
 }
 
-/* line 2229, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2229, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .share-social li {
   font-size: 15px;
 }
 
-/* line 2233, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2233, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .share-social {
   border-top: 1px solid #ededed;
   border-bottom: 1px solid #ededed;
@@ -23142,37 +23142,37 @@ a:after, a:before, .btn.btn-primary i,
   margin-top: 40px;
 }
 
-/* line 2240, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2240, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post-tags {
   display: inline-block;
   float: left;
   padding-left: 10px;
 }
 
-/* line 2246, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2246, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post-tags a {
   color: #2c3e50;
 }
 
-/* line 2250, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2250, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .post-tags a:hover {
   color: #f3cc29;
 }
 
-/* line 2254, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2254, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .share-social a {
   font-size: 13px;
   color: #2c3e50;
 }
 
-/* line 2259, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2259, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .blog-details .share-social i {
   margin-right: 10px;
   color: #f3cc29;
   font-size: 18px;
 }
 
-/* line 2265, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2265, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social i {
   color: #fff;
   width: 30px;
@@ -23183,59 +23183,59 @@ a:after, a:before, .btn.btn-primary i,
   background-color: #fdb251;
 }
 
-/* line 2275, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2275, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social li {
   display: inline-block;
 }
 
-/* line 2279, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2279, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social li:first-child {
   margin-right: 20px;
 }
 
-/* line 2283, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2283, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social .fa-facebook {
   background-color: #617fc0;
 }
 
-/* line 2287, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2287, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social .fa-tumblr {
   background-color: #74bde0;
 }
 
-/* line 2291, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2291, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social .fa-pinterest-p {
   background-color: #cd4951;
 }
 
-/* line 2295, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2295, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social .fa-flickr {
   background-color: #ff0084;
 }
 
-/* line 2299, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2299, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .share-social .social .fa-vimeo {
   background-color: #70b1bf;
 }
 
-/* line 2303, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2303, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .comments-area {
   margin-bottom: 75px;
 }
 
-/* line 2307, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2307, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .comments-area > h4,
 .replay-box > h4 {
   color: #2c3e50;
   font-family: 'montserratsemi_bold';
 }
 
-/* line 2313, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2313, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .replay-box > h4 {
   margin-bottom: 25px;
 }
 
-/* line 2317, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2317, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-author, .post-comment {
   font-size: 13px;
   color: #666;
@@ -23248,44 +23248,44 @@ a:after, a:before, .btn.btn-primary i,
   position: relative;
 }
 
-/* line 2329, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2329, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-author h4 {
   font-size: 15px;
 }
 
-/* line 2333, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2333, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-author h5 {
   font-size: 13px;
   margin-bottom: 15px;
   font-family: 'montserratregular';
 }
 
-/* line 2339, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2339, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .author-image {
   float: left;
   margin-right: 30px;
 }
 
-/* line 2344, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2344, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-author-info {
   overflow: hidden;
 }
 
-/* line 2348, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2348, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .commenter-info {
   font-size: 13px;
   line-height: 30px;
   overflow: hidden;
 }
 
-/* line 2354, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2354, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .commenter-avatar {
   float: left;
   margin-right: 30px;
   margin-top: 10px;
 }
 
-/* line 2360, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2360, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .media-body .btn.btn-primary {
   float: right;
   font-size: 12px;
@@ -23296,19 +23296,19 @@ a:after, a:before, .btn.btn-primary i,
   padding-left: 25px;
 }
 
-/* line 2370, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2370, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .media-body .btn.btn-primary i {
   background-color: #2c3e50;
   color: #fff;
 }
 
-/* line 2375, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2375, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .media-body .btn.btn-primary:hover i {
   color: #2c3e50;
   background-color: #f3cc29;
 }
 
-/* line 2380, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2380, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .media-inner {
   display: inline-block;
   margin-top: 10px;
@@ -23316,38 +23316,38 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratbold';
 }
 
-/* line 2387, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2387, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-comment .post-nfo h5 {
   color: #333;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 2393, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2393, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-comment .post-nfo a {
   float: right;
   color: #efbb20;
   opacity: 0;
 }
 
-/* line 2399, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2399, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-comment:hover .post-nfo a {
   opacity: 1;
 }
 
-/* line 2403, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2403, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .post-comment .post-nfo a:hover {
   color: #34404e;
 }
 
-/* line 2407, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2407, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .media-inner .date {
   color: #999;
   font-size: 12px;
   font-family: 'montserratregular';
 }
 
-/* line 2413, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2413, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .comments-area > h4 {
   margin-bottom: -20px;
 }
@@ -23355,13 +23355,13 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Contact Page Css
  ========================================================================== */
-/* line 2425, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2425, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #gmap {
   width: 100%;
   height: 450px;
 }
 
-/* line 2434, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2434, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-form-section .contact-info h2 {
   font-size: 24px;
   text-align: center;
@@ -23369,7 +23369,7 @@ a:after, a:before, .btn.btn-primary i,
   font-family: 'montserratregular';
 }
 
-/* line 2441, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2441, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-form-section .btn.btn-primary {
   margin-top: 0;
   -webkit-transition: all 0.4s ease-in-out;
@@ -23379,19 +23379,19 @@ a:after, a:before, .btn.btn-primary i,
   transition: all 0.4s ease-in-out;
 }
 
-/* line 2450, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2450, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-form .btn.btn-primary:hover {
   box-shadow: none;
   color: #2c3e50;
   background-color: #efbb20;
 }
 
-/* line 2456, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2456, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .form-group {
   margin-bottom: 30px;
 }
 
-/* line 2460, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2460, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .form-control {
   height: 55px;
   border-radius: 0;
@@ -23401,32 +23401,32 @@ a:after, a:before, .btn.btn-primary i,
   box-shadow: none;
 }
 
-/* line 2469, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2469, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-form input,
 .contact-form textarea {
   padding: 0 50px;
 }
 
-/* line 2474, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2474, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-form textarea {
   min-height: 238px;
   padding-top: 15px;
   resize: none;
 }
 
-/* line 2480, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2480, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
   background-repeat: no-repeat;
   background-position: left 20px center;
 }
 
-/* line 2486, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2486, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .form-group {
   position: relative;
 }
 
-/* line 2490, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2490, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .form-group i {
   position: absolute;
   top: 20px;
@@ -23437,7 +23437,7 @@ a:after, a:before, .btn.btn-primary i,
   color: #f3cc29;
 }
 
-/* line 2500, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2500, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .form-group input:focus, .form-group textarea:focus {
   border-color: #f3cc29;
 }
@@ -23445,7 +23445,7 @@ a:after, a:before, .btn.btn-primary i,
 /* ==========================================================================
  	Extra Css
  ========================================================================== */
-/* line 2508, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2508, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 #scrollUp {
   bottom: 15px;
   right: 50px;
@@ -23456,27 +23456,27 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 /*Magnific-popup overwrite CSS*/
-/* line 2519, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2519, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .mfp-figure {
   background-color: #fff;
 }
 
-/* line 2523, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2523, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 img.mfp-img {
   padding: 12px;
 }
 
-/* line 2527, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2527, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .mfp-image-holder .mfp-close {
   top: -35px;
 }
 
-/* line 2531, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2531, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: pointer;
 }
 
-/* line 2535, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/main.scss */
+/* line 2535, /Users/ceo-bhent/Google Drive/Bhent/Bhent-Digital/Production-Operation/Clients/Groupe_Oberlin/Source_Code/groupeoberlin.com_v1.0/app/assets/stylesheets/oberlin_style.scss */
 .mfp-counter {
   right: 50%;
   color: #fff;
