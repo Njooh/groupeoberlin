@@ -18,4 +18,3 @@ Rails.application.config.assets.precompile += %w( magnific-popup.min.js )
 Rails.application.config.assets.precompile += %w( custom.js )
 Rails.application.config.assets.precompile += %w( gmaps.js )
 Rails.application.config.assets.precompile += %w( modernizr.min.js )
-
