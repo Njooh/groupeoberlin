@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'news-details' => 'news#show'
+
   get 'emploi' => 'emploi#index'
 
   get 'faq' => 'contact#faq'

@@ -1,2 +1,162 @@
-<h1>Filliales#services</h1>
-<p>Find me in app/views/filliales/services.html.erb</p>
+<% title "Services" %>
+
+<%= render "layouts/shared/header" %>
+
+<div class="breadcrumb-section image-bg ">
+  <div class="overlay"></div>
+  <div class="breadcrumb-content container">
+    <h1>Oberlin Services</h1>
+    <ol class="breadcrumb">
+      <li><a href="/">Accueil</a></li>
+      <li class="active">Oberlin Services</li>
+    </ol>
+  </div>
+</div><!-- breadcrumb-section -->
+
+<div class="details-section section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-12">
+        <div id="product-carousel">
+          <div class="carousel-image">
+            <%= image_tag("project/8.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+          <div class="carousel-image">
+            <%= image_tag("project/5.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+          <div class="carousel-image">
+            <%= image_tag("project/3.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="details-info">
+          <h2>Full Description Of Project</h2>
+          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril </p>
+          <div class="details-list">
+            <ul>
+              <li>
+                <p>Client: <span>Awesome Company</span></p>
+              </li>
+              <li>
+                <p>Location: <span>Mountain View CA 9489, USA</span></p>
+              </li>
+              <li>
+                <p>Compeleted Year: <span>03 Aug, 2016</span></p>
+              </li>
+              <li>
+                <p>Value: <span>About $22, 13, 656</span></p>
+              </li>
+              <li>
+                <p>Architect: <span>Jhon & Berry</span></p>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+</div><!-- details section -->
+
+<div class="recent-projects section-padding">
+  <div class="container">
+    <div class="section-title text-center">
+      <div class="container">
+        <h1>Other Projects</h1>
+        <h2>Completed Recently</h2>
+      </div>
+    </div>
+
+    <div class="row" >
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+          <div class="project-item">
+            <%= link_to image_path('project/1.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Nam liber tempor cum</a></h3>
+            <span>Clients: Dreamer</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+          <div class="project-item">
+            <%= link_to image_path('project/2.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/2.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Lorem ipsum dolor sit</a></h3>
+            <span>Clients: Asthetic</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/3.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/3.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Legentis in iis qui facit</a></h3>
+            <span>Clients: Martin</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/4.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/4.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Duis autem vel eum </a>  </h3>
+            <span>Clients: Marbel</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/2.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/5.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Lorem ipsum dolor sit</a></h3>
+            <span>Clients: Asthetic</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+
+          <div class="project-item">
+            <%= link_to image_path('project/3.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+          <div class="project-title">
+            <h3><a href="project-details.html">Legentis in iis qui facit</a></h3>
+            <span>Clients: Martin</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- recent projects -->
+
+<%= render "layouts/shared/link-contact" %>
+<%= render "layouts/shared/footer" %>

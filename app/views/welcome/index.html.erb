@@ -226,7 +226,7 @@
             <div class="entry-header">
               <div class="blog-image">
                 <div class="entry-thumbnail">
-                  <%= link_to "blog-details.html" do %>
+                  <%= link_to "/news-details" do %>
                       <%= image_tag(('blog/1.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
                   <% end %>
                 </div>
@@ -260,7 +260,7 @@
             <div class="entry-header">
               <div class="blog-image">
                 <div class="entry-thumbnail">
-                  <%= link_to "blog-details.html" do %>
+                  <%= link_to "/news-details" do %>
                       <%= image_tag(('blog/2.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
                   <% end %>
                 </div>
@@ -294,7 +294,7 @@
             <div class="entry-header">
               <div class="blog-image">
                 <div class="entry-thumbnail">
-                  <%= link_to "blog-details.html" do %>
+                  <%= link_to "/news-details" do %>
                       <%= image_tag(('blog/3.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
                   <% end %>
                 </div>
@@ -328,5 +328,6 @@
   </div><!-- container -->
 </div><!-- blog section -->
 
+<%= render "layouts/shared/link-contact" %>
 <%= render "layouts/shared/footer" %>
 
