@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'faq' => 'contact#faq'
 
   get 'contact' => 'contact#index'
+  post 'contact' => 'contact#send_message'
 
   get 'a-propos' => 'welcome#a-propos'
 
