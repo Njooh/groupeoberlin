@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d09fcd-a68e-4a7e-b556-47a4d50ddab9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/shared/_link-contact.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/news_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/news_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/agro.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/agro.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/arts.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/arts.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/construction.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/construction.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/immo.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/ingenierie.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/ingenierie.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/it.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/it.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/services.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/services.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/tourisme.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/tourisme.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/transit.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/transit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/news/index.html.erb" afterPath="$PROJECT_DIR$/app/views/news/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -777,12 +759,12 @@
       <workItem from="1495190995148" duration="1826000" />
       <workItem from="1495442857121" duration="8879000" />
       <workItem from="1495461081401" duration="14821000" />
-      <workItem from="1495533382988" duration="4817000" />
+      <workItem from="1495533382988" duration="5696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78441000" />
+    <option name="totallyTimeSpent" value="79320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
