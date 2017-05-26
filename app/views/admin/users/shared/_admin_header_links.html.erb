@@ -1,0 +1,87 @@
+<header id="header">
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="info-box">
+            <i class="fa fa-envelope"></i>
+            <div class="info-text">
+              <h5>E-mail :</h5>
+              <a href="#">hello@groupeoberlin.com</a>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fa fa-phone"></i>
+            <div class="info-text">
+              <h5>Contact :</h5>
+              <span>+237 243-434-567</span>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fa fa-clock-o"></i>
+            <div class="info-text">
+              <h5>Heures d'ouverture :</h5>
+              <a href="#">Lundi - Samedi : 8h30 - 17h30</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="top-social pull-right">
+            <ul class="list-inline">
+              <li><a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+  </div><!-- top-bar -->
+
+  <div class="main-menu">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/admin/Groupe-Oberlin"><%= image_tag("logo.png",  alt: "Logo", class: "img-responsive") %></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+          <li>
+            <%= link_to 'Post an article',admin_Groupe_Oberlin_new_article_path%>
+          </li>
+            <li class="dropdown">
+              <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                See more
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                <%=link_to 'Messages', admin_Groupe_Oberlin_Messages_path %></li>
+                <li>
+                <%= link_to 'Comments', admin_Groupe_Oberlin_Comments_path%>
+                </li>
+                <li>
+                  <%= link_to 'Post article',admin_Groupe_Oberlin_new_article_path%> 
+                </li>
+                
+              </ul>
+            </li>
+            
+            <li class="">
+               <%=link_to 'logout', admin_logout_url, method: :delete %>
+            </li>
+            
+          </ul>
+        </div>
+      </div><!-- container -->
+    </nav><!-- navbar -->
+  </div><!-- main menu -->
+</header><!-- Header -->

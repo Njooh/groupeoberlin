@@ -10,7 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170524143845) do
+ActiveRecord::Schema.define(version: 20170526055035) do
+
+  create_table "admins", force: :cascade do |t|
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "email"
+    t.string   "password_digest"
+    t.string   "remember_digest"
+    t.string   "name"
+  end
+
+  create_table "blogs", force: :cascade do |t|
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "article_title"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+    t.text     "article_description"
+    t.string   "post_by"
+    t.string   "category"
+  end
 
   create_table "contacts", force: :cascade do |t|
     t.string   "name"

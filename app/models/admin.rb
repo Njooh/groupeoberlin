@@ -1,0 +1,42 @@
+class Admin < ApplicationRecord
+	attr_accessor :remember_token
+	validates :name, presence: true
+	VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  
+  	validates :email, presence: true, length: { maximum: 255 },
+                    format: { with: VALID_EMAIL_REGEX },
+                    uniqueness: { case_sensitive: false }
+	before_save { self.email = email.downcase }
+
+	has_secure_password
+  	validates :password, presence: true, length: { minimum: 6 }
+
+  	# Returns the hash digest of the given string.
+  def Admin.digest(string)
+    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
+        BCrypt::Engine.cost
+    BCrypt::Password.create(string, cost: cost)
+  end
+
+  #this method returns a random user token
+  def Admin.new_token
+    SecureRandom.urlsafe_base64
+  end
+
+  #this instance method helps to remember a user in the database
+  def remember
+    self.remember_token = Admin.new_token
+    update_attribute(:remember_digest, Admin.digest(remember_token))
+  end
+
+  #check if a given token matches the stored one and return true else false
+  def authenticated?(remember_token)
+    BCrypt::Password.new(remember_digest).is_password?(remember_token)
+  end
+
+  #forget a user when logged out
+  def forget
+    update_attribute(:remember_digest, nil)
+  end
+  
+end
