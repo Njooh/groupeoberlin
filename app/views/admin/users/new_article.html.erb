@@ -1,0 +1,62 @@
+<%=provide(:title, 'New Article') %>
+<%= render "admin/users/shared/admin_header_links" %>
+<div class="contact-form-section section-padding">
+  <div class="container">
+    <div class="section-title text-center">
+      <div class="container">
+        <h1>Post A New Article</h1>
+        <h2></h2>
+      </div>
+    </div>
+    <div class="contact-info text-center">
+     
+        <%= form_for(@blog,  url: admin_Groupe_Oberlin_new_article_path, :html => {class: 'contact-form', id: 'contact-form', method: :post}) do |f| %>
+        <%= render "admin/users/shared/errors", object: @blog %>
+           <div class="row">
+          	<div class="col-sm-12">
+
+            <div class="form-group">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <%=f.text_field :category, class: 'form-control control-1', required: 'required', placeholder: 'article category' %>
+            </div>
+            
+          </div>
+
+          <div class="col-sm-12">
+          	<div class="form-group">
+              <i class="fa fa-key" aria-hidden="true"></i>
+              <%=f.file_field :image, class: 'form-control control-1', required: 'required', placeholder: 'select image' %>
+            </div>
+          </div>
+          <div class="col-sm-12">
+          	<div class="form-group">
+              <i class="fa fa-key" aria-hidden="true"></i>
+
+              
+              <%=f.text_field :article_title, class: 'form-control control-1', required: 'required', placeholder: 'article title' %>
+            </div>
+          </div>
+          
+          <div class="col-sm-12">
+          	<div class="form-group">
+              <i class="fa fa-key" aria-hidden="true"></i>
+
+              
+              <%=f.text_area :article_description, class: 'form-control control-1', required: 'required', row: 7, placeholder: 'article description' %>
+            </div>
+          </div>
+          <div class="col-sm-12">
+          	<div class="submit-button">
+          <%= f.submit "POST", class: 'btn btn-primary'%>
+        </div>
+          </div>
+        
+        <%end%>
+      <!-- contact form -->
+    </div>
+  </div><!-- container -->
+</div><!-- contact form section -->
+
+
+<%= render "layouts/shared/link-contact" %>
+<%= render "layouts/shared/footer" %>

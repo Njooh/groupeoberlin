@@ -26,9 +26,9 @@
       </div>
     </div>
     <div class="contact-info">
-      <form id="contact-form" class="contact-form" name="contact-form" method="post" action="contact.html#">
+     <!--  <form id="contact-form" class="contact-form" name="contact-form"> -->
        
-        <%= form_for(@contact, url: contact_url) do |f|%>
+        <%= form_for(@contact, url: contact_url, :html => {class: 'contact-form', id: 'contact-form', method: :post}) do |f|%>
            <div class="row">
           <div class="col-sm-4">
             <div class="form-group">
@@ -63,7 +63,7 @@
           <%= f.submit "Send Now", class: 'btn btn-primary'%>
         </div>
         <%end%>
-      </form><!-- contact form -->
+      <!-- </form> --><!-- contact form -->
     </div>
   </div><!-- container -->
 </div><!-- contact form section -->
