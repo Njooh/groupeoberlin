@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  namespace :admin do
+    get 'Groupe-Oberlin/', to: 'users#show'
+    get 'Groupe-Oberlin/new-article', to: 'users#new_article'
+    post 'Groupe-Oberlin/new-article', to: 'users#create_article'
+    get 'Groupe-Oberlin/article/:id', to: 'users#article', as: 'Groupe-Oberlin/article/'
+    get 'Groupe-Oberlin/Messages', to: 'users#messages'
+    get 'Groupe-Oberlin/Comments', to: 'users#comments'
+  end
+
+  get 'admin/login', to: 'sessions#new'
+  post 'admin/login', to: 'sessions#create'
+  delete 'admin/logout', to: 'sessions#destroy'
+
   get 'news-details' => 'news#show'
 
   get 'emploi' => 'emploi#index'
@@ -6,6 +19,7 @@ Rails.application.routes.draw do
   get 'faq' => 'contact#faq'
 
   get 'contact' => 'contact#index'
+  post 'contact' => 'contact#send_message'
 
   get 'a-propos' => 'welcome#a-propos'
 
