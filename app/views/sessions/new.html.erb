@@ -1,0 +1,46 @@
+<%= provide(:title, 'Admin')%>
+<%= render "layouts/shared/header" %>
+<div class="contact-form-section section-padding">
+  <div class="container">
+    <div class="section-title text-center">
+      <div class="container">
+        <h1>Login</h1>
+        <h2></h2>
+      </div>
+    </div>
+    <div class="contact-info text-center">
+     
+        <%= form_for(:session,  url: admin_login_path, :html => {class: 'contact-form', id: 'contact-form', method: :post}) do |f| %>
+           <div class="row">
+          	<div class="col-sm-12">
+
+            <div class="form-group">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              
+              <%=f.email_field :email, class: 'form-control control-1', required: 'required', placeholder: 'User email' %>
+            </div>
+            
+          </div>
+          <div class="col-sm-12">
+          	<div class="form-group">
+              <i class="fa fa-key" aria-hidden="true"></i>
+
+              
+              <%=f.password_field :password, class: 'form-control control-1', required: 'required', placeholder: 'password' %>
+            </div>
+          </div>
+          <div class="col-sm-12">
+          	<div class="submit-button">
+          <%= f.submit "Login", class: 'btn btn-primary'%>
+        </div>
+          </div>
+        
+        <%end%>
+      <!-- contact form -->
+    </div>
+  </div><!-- container -->
+</div><!-- contact form section -->
+
+<div id="gmap"></div>
+
+<%= render "layouts/shared/footer" %>
