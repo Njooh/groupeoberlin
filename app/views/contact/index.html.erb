@@ -17,8 +17,7 @@
   <div class="container">
     <div class="section-title text-center">
       <div class="container">
-        <h1>Contact Us</h1>
-        <h2>Drop Your Message</h2>
+        <h2>Remplissez le formulaire</h2>
         <%if flash[:notice].present? %>
           <p><%=flash[:notice]%></p>
         <%end%>
@@ -34,14 +33,14 @@
             <div class="form-group">
               <i class="fa fa-user" aria-hidden="true"></i>
               
-              <%=f.text_field :name, class: 'form-control control-1', required: 'required', placeholder: 'Name' %>
+              <%=f.text_field :name, class: 'form-control control-1', required: 'required', placeholder: 'Nom & Prénom' %>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="form-group">
               <i class="fa fa-th-list" aria-hidden="true"></i>
             
-              <%=f.text_field :subject, class: 'form-control', required: 'required', placeholder: 'Subject' %>
+              <%=f.text_field :subject, class: 'form-control', required: 'required', placeholder: 'Objet' %>
             </div>
           </div>
           <div class="col-sm-4">
@@ -60,14 +59,12 @@
           </div>
         </div>
         <div class="submit-button">
-          <%= f.submit "Send Now", class: 'btn btn-primary'%>
+          <%= f.submit "Envoyer", class: 'btn btn-primary'%>
         </div>
         <%end%>
       <!-- </form> --><!-- contact form -->
     </div>
   </div><!-- container -->
 </div><!-- contact form section -->
-
-<div id="gmap"></div>
 
 <%= render "layouts/shared/footer" %>
