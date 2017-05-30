@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d09fcd-a68e-4a7e-b556-47a4d50ddab9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" afterPath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a-propos.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/a-propos.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -210,7 +219,6 @@
         <option value="$PROJECT_DIR$/app/controllers/news_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_link-contact.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/arts.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/construction.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
@@ -229,6 +237,7 @@
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contact/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
       </list>
     </option>
   </component>
@@ -901,12 +910,12 @@
       <workItem from="1495533382988" duration="5696000" />
       <workItem from="1495664414888" duration="2697000" />
       <workItem from="1495702981965" duration="3184000" />
-      <workItem from="1496053054545" duration="21277000" />
+      <workItem from="1496053054545" duration="24811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107348000" />
+    <option name="totallyTimeSpent" value="110882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1103,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/a-propos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="238" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="239" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1293,6 +1295,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/a-propos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding />
         </state>
       </provider>
