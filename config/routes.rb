@@ -12,7 +12,8 @@ Rails.application.routes.draw do
   post 'admin/login', to: 'sessions#create'
   delete 'admin/logout', to: 'sessions#destroy'
 
-  get 'news-details' => 'news#show'
+  get 'news-details/:id' => 'news#show', as: 'news-details'
+  post 'news-details/:id' => 'news#comment'
 
   get 'emploi' => 'emploi#index'
 
