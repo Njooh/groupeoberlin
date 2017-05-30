@@ -1,4 +1,5 @@
 class Blog < ApplicationRecord
+	has_many :comments, dependent: :destroy
 	validates :article_title, presence: true
 	validates :article_description, presence: true
 	validates :post_by, presence: true

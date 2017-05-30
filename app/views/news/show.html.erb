@@ -1,15 +1,15 @@
-<% title "Titre News" %>
+<% title @article.article_title %>
 
 <%= render "layouts/shared/header" %>
 
 <div class="breadcrumb-section image-bg ">
   <div class="overlay"></div>
   <div class="breadcrumb-content container">
-    <h1>Titre News</h1>
+    <h1><%=@article.article_title%></h1>
     <ol class="breadcrumb">
       <li><a href="/">Accueil</a></li>
       <li><a href="/news">News</a></li>
-      <li class="active">Titre news</li>
+      <li class="active"><%=truncate(@article.article_title, length: 20)%></li>
     </ol>
   </div>
 </div><!-- breadcrumb-section -->
@@ -19,135 +19,105 @@
     <div class="blog-content">
       <div class="blog-image">
         <div class="entry-thumbnail">
-          <%= image_tag("blog/blog-post.jpg",  alt: "Blog Image", class: "img-responsive") %>
+          <%= image_tag(@article.image,  alt: "#{@article.article_title}", class: "img-responsive") %>
         </div>
         <div class="time">
-          <h2>07 <span>Aug</span></h2>
+          <h2><%=@article.created_at.strftime("%d") %> <span><%=@article.created_at.strftime("%B") %></span></h2>
         </div>
       </div> <!-- blog-image -->
       <div class="entry-title">
-        <h3>Excepteur sint it occaecat cupidatat non</h3>
+        <h3><%=@article.article_title %></h3>
       </div>
       <div class="entry-meta">
         <ul class="list-inline">
-          <li><a href="blog-details.html#"><i class="fa fa-user"></i>Captain Sad</a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-folder-o"></i>Construction</a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-comment-o"></i>3 Comments</a></li>
+          <li><a><i class="fa fa-user"></i><%=@article.post_by.capitalize%></a></li>
+          <li><a><i class="fa fa-folder-o"></i><%=@article.category%></a></li>
+          <li><a href="#" class="comment"><i class="fa fa-comment-o"></i><%=pluralize(@comments.count, 'Comment')%></a></li>
         </ul>
       </div>
       <div class="post-content">
-        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt. labo et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco off a laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint it occaecat cupidatat non home roident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p><br>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archie  beatae to vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptem sequi nesciunt. Neque porro quisquam est</p>
-        <blockquote><i class="fa fa-quote-left"></i>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi to architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam. Perspiciatis unde omnis iste natus error sit voluptatem.</blockquote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco off a  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint Io occaecat cupidatat non home proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> <br>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archo beatae to vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+        <p>
+          <%=@article.article_description %>
+        </p>
       </div>
       <div class="share-social">
         <ul class="social">
           <li>Share:</li>
-          <li><a href="blog-details.html#"><i class="fa fa-rss"></i></a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-tumblr"></i></a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-pinterest-p"></i></a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-flickr"></i></a></li>
-          <li><a href="blog-details.html#"><i class="fa fa-vimeo"></i></a></li>
+          <li><a href="#"><i class="fa fa-rss"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+          <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
         </ul>
       </div><!-- share social -->
 
-      <div class="post-author">
-        <div class="author-image">
-          <%= image_tag("blog/user.jpg",  alt: "Image", class: "img-responsive") %>
-        </div>
-        <div class="post-author-info">
-          <h4>Mark Doe</h4>
-          <h5>Senior Consultant</h5>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archo beatae to vitae dicta sunt explicabo.</p>
-        </div>
-      </div>
+     
 
-      <div class="comments-area">
-        <h4>3 Comments:</h4>
-        <div class="post-comment">
+      <div class="comments-area" id="comment">
+        <h4><%=pluralize(@comments.count, 'Comment')%> </h4>
+        <% @comments.each do |comment|%>
+          <div class="post-comment">
           <div class="post-nfo">
             <div class="author-image">
-              <%= image_tag("blog/user-1.jpg",  alt: "Image", class: "img-responsive") %>
+              <%= image_tag(gravatar_url(comment.email, 100),  alt: "Image", class: "img-responsive") %>
             </div>
             <div class="commenter-info">
-              <h5>Jhon Doe</h5>
-              <p class="date">Posted on Aug 9, 2016</p>
+              <h5><%=comment.commenter_name %></h5>
+              <p class="date">
+                Posted on <%=comment.created_at.strftime("%B %d, %Y") %>
+              </p>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco off a laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <a href="blog-details.html#" > <i class="fa fa-share" aria-hidden="true"></i> Replay</a>
+              <p>
+                <%=comment.comment_message%>
+              </p>
+             
             </div>
           </div>
         </div><!-- post-comment -->
+        <%end%>
+        
 
-        <div class="post-comment">
-          <div class="post-nfo">
-            <div class="author-image">
-              <%= image_tag("blog/user.jpg",  alt: "Image", class: "img-responsive") %>
-            </div>
-            <div class="commenter-info">
-              <h5>Adam Marsal</h5>
-              <p class="date">Posted on Aug 9, 2016</p>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim too veniam, quis nos to to it xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-
-              <a href="blog-details.html#" > <i class="fa fa-share" aria-hidden="true"></i> Replay</a>
-            </div>
-
-          </div>
-        </div><!-- post-comment -->
-        <div class="post-comment">
-          <div class="post-nfo">
-            <div class="author-image">
-              <%= image_tag("blog/user3.jpg",  alt: "Image", class: "img-responsive") %>
-            </div>
-            <div class="commenter-info">
-              <h5>Maria Liza</h5>
-              <p class="date">Posted on Aug 9, 2016</p>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim too veniam, quis nos to to it xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-
-              <a href="blog-details.html#" > <i class="fa fa-share" aria-hidden="true"></i> Replay</a>
-            </div>
-          </div>
-        </div><!-- post-comment -->
-      </div><!-- comments area -->
+        
 
       <div class="replay-box">
         <h4>Leave A Comment</h4>
-        <form id="contact-form" class="contact-form" name="contact-form" method="post" action="blog-details.html#">
+        <%=form_for(@comment, url: news_details_url(@article.id), html: {id: 'contact-form', class: 'contact-form', method: :post}) do |f| %>
           <div class="row">
             <div class="col-sm-4">
               <div class="form-group">
                 <i class="fa fa-user" aria-hidden="true"></i>
-                <input type="text" class="form-control control-1" required="required" placeholder="Your Name">
+                
+                <%=f.text_field :commenter_name, class: 'form-control', required: 'required', placeholder: "Your Name" %>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="form-group">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <input type="email" class="form-control" required="required" placeholder="E-mail Address">
+               
+                <%=f.email_field :email, class: 'form-control', required: 'required', placeholder: "E-mail Address" %>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="form-group">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <input type="text" class="form-control" required="required" placeholder="Web Address">
+               
+                <%=f.text_field :web_address, class: 'form-control', required: 'required', placeholder: "Web Address" %>
               </div>
             </div>
             <div class="col-sm-12">
               <div class="form-group">
                 <i class="fa fa-comments" aria-hidden="true"></i>
-                <textarea name="message" id="message" required="required" class="form-control" rows="7" placeholder="Your Comments"></textarea>
+                
+                <%= f.text_area :comment_message, required: 'required', id: 'message', class: 'form-control', row: 7, placeholder: 'Your Comment' %>
               </div>
             </div>
           </div>
           <div class="submit-button">
-            <button type="submit" class="btn btn-primary">Submit Your Comment</button>
+            <%=f.submit 'Submit Your Comment', class: 'btn btn-primary' %>
           </div>
-        </form><!-- contact form -->
+        <%end%>
+        
       </div>
     </div>
   </div><!-- container -->
@@ -155,3 +125,11 @@
 
 <%= render "layouts/shared/link-contact" %>
 <%= render "layouts/shared/footer" %>
+<script>
+  $(".comment").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $("#comment").offset().top
+    }, 2000);
+});
+</script>

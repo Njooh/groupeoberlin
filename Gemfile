@@ -39,6 +39,10 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'owlcarousel2', '~> 2.2.0.pre.4.pre.g22132e0'
 gem 'backstretch-rails', '~> 2.0', '>= 2.0.4'
 gem 'paperclip', '~> 5.1'
+gem 'will_paginate-bootstrap'
+
+gem 'will_paginate'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

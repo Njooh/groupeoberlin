@@ -21,32 +21,45 @@
     </div>
     <div class="blog-content">
       <div class="row">
+      <% @articles.each do |article|%>
         <div class="col-md-4 col-sm-6">
           <div class="blog-post">
             <div class="entry-header">
               <div class="blog-image">
                 <div class="entry-thumbnail">
-                  <%= link_to "/news-details" do %>
-                      <%= image_tag(('blog/1.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
+                  <%= link_to news_details_url(article.id) do %>
+                      <%= image_tag((article.image), :class => "img-responsive", :alt => "Blog Image") %>
                   <% end %>
                 </div>
                 <div class="time">
-                  <h2>07 <span>Aug</span></h2>
+                  <h2><%=article.created_at.strftime("%d")%> <span><%=article.created_at.strftime("%B")%></span></h2>
+
                 </div>
               </div> <!-- blog-image -->
             </div>
             <div class="entry-post">
               <div class="entry-title">
-                <h4><a href="blog-details.html">L'heure de la Récolte</a></h4>
+                <h4>
+                
+                <%= link_to article.article_title,
+                news_details_url(article.id)%>
+                
+                </h4>
               </div>
               <div class="post-content">
                 <div class="entry-summary">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit too on volupt usantium to  doloremque laudantium, for I totam rem aperiam to the end. Sed ut of perspi unde omnis iste natus error sit too on voluptatem.</p>
+                  <p>
+                    <%= truncate(article.article_description, length: 255)%><%= link_to "Read more", news_details_url(article.id)%>
+                  </p>
                   <div class="entry-meta">
                     <ul class="list-inline">
-                      <li><a href="#"><i class="fa fa-user"></i>Jhon Doe</a></li>
-                      <li><a href="#"><i class="fa fa-folder-o"></i>Chantier</a></li>
-                      <li><a href="#"><i class="fa fa-comment-o"></i>7 Comments</a></li>
+                      <li><a href="#"><i class="fa fa-user"></i><%= article.post_by%></a></li>
+                      <li><a href="#"><i class="fa fa-folder-o"></i><%= article.category %></a></li>
+                      
+                      <li><a href="/news-details/<%=article.id%>#comment"><i class="fa fa-comment-o"></i><%=pluralize(article.comments.count, "Comment") %>
+                      </a></li>
+                     
+                      
                     </ul>
                   </div>
 
@@ -55,41 +68,14 @@
             </div><!-- entry-post -->
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="blog-post">
-            <div class="entry-header">
-              <div class="blog-image">
-                <div class="entry-thumbnail">
-                  <%= link_to "/news-details" do %>
-                      <%= image_tag(('blog/2.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
-                  <% end %>
-                </div>
-                <div class="time">
-                  <h2>05 <span>Aug</span></h2>
-                </div>
-              </div> <!-- blog-image -->
-            </div>
-            <div class="entry-post">
-              <div class="entry-title">
-                <h4><a href="blog-details.html">Étude Soigné des Plans</a></h4>
-              </div>
-              <div class="post-content">
-                <div class="entry-summary">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit too on volupt usantium to  doloremque laudantium, for I totam rem aperiam to the end. Sed ut of perspi unde omnis iste natus error sit too on voluptatem.</p>
-
-                  <div class="entry-meta">
-                    <ul class="list-inline">
-                      <li><a href="#"><i class="fa fa-user"></i>Captain Sad</a></li>
-                      <li><a href="#"><i class="fa fa-folder-o"></i>Construction</a></li>
-                      <li><a href="#"><i class="fa fa-comment-o"></i>3 Comments</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div><!-- entry-post -->
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
+      <%end%>
+        
+        
+        
+        
+        
+        
+        <!-- <div class="col-md-4 col-sm-6">
           <div class="blog-post">
             <div class="entry-header">
               <div class="blog-image">
@@ -101,7 +87,7 @@
                 <div class="time">
                   <h2>02 <span>Aug</span></h2>
                 </div>
-              </div> <!-- blog-image -->
+              </div> 
             </div>
             <div class="entry-post">
               <div class="entry-title">
@@ -120,146 +106,10 @@
                   </div>
                 </div>
               </div>
-            </div><!-- entry-post -->
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="blog-post">
-            <div class="entry-header">
-              <div class="blog-image">
-                <div class="entry-thumbnail">
-                  <%= link_to "/news-details" do %>
-                      <%= image_tag(('blog/4.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
-                  <% end %>
-                </div>
-                <div class="time">
-                  <h2>02 <span>Aug</span></h2>
-                </div>
-              </div> <!-- blog-image -->
             </div>
-            <div class="entry-post">
-              <div class="entry-title">
-                <h4><a href="blog-details.html">L'importance du Terrassement</a></h4>
-              </div>
-              <div class="post-content">
-
-                <div class="entry-summary">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit too on volupt usantium to  doloremque laudantium, for I totam rem aperiam to the end. Sed ut of perspi unde omnis iste natus error sit too on voluptatem.</p>
-                  <div class="entry-meta">
-                    <ul class="list-inline">
-                      <li><a href="#"><i class="fa fa-user"></i>Jr. Macllum</a></li>
-                      <li><a href="#"><i class="fa fa-folder-o"></i>BTP</a></li>
-                      <li><a href="#"><i class="fa fa-comment-o"></i>0 Comments</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div><!-- entry-post -->
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="blog-post">
-            <div class="entry-header">
-              <div class="blog-image">
-                <div class="entry-thumbnail">
-                  <%= link_to "/news-details" do %>
-                      <%= image_tag(('blog/5.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
-                  <% end %>
-                </div>
-                <div class="time">
-                  <h2>02 <span>Aug</span></h2>
-                </div>
-              </div> <!-- blog-image -->
-            </div>
-            <div class="entry-post">
-              <div class="entry-title">
-                <h4><a href="blog-details.html">L'importance du Terrassement</a></h4>
-              </div>
-              <div class="post-content">
-
-                <div class="entry-summary">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit too on volupt usantium to  doloremque laudantium, for I totam rem aperiam to the end. Sed ut of perspi unde omnis iste natus error sit too on voluptatem.</p>
-                  <div class="entry-meta">
-                    <ul class="list-inline">
-                      <li><a href="#"><i class="fa fa-user"></i>Jr. Macllum</a></li>
-                      <li><a href="#"><i class="fa fa-folder-o"></i>BTP</a></li>
-                      <li><a href="#"><i class="fa fa-comment-o"></i>0 Comments</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div><!-- entry-post -->
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="blog-post">
-            <div class="entry-header">
-              <div class="blog-image">
-                <div class="entry-thumbnail">
-                  <%= link_to "/news-details" do %>
-                      <%= image_tag(('blog/6.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
-                  <% end %>
-                </div>
-                <div class="time">
-                  <h2>02 <span>Aug</span></h2>
-                </div>
-              </div> <!-- blog-image -->
-            </div>
-            <div class="entry-post">
-              <div class="entry-title">
-                <h4><a href="blog-details.html">L'importance du Terrassement</a></h4>
-              </div>
-              <div class="post-content">
-
-                <div class="entry-summary">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit too on volupt usantium to  doloremque laudantium, for I totam rem aperiam to the end. Sed ut of perspi unde omnis iste natus error sit too on voluptatem.</p>
-                  <div class="entry-meta">
-                    <ul class="list-inline">
-                      <li><a href="#"><i class="fa fa-user"></i>Jr. Macllum</a></li>
-                      <li><a href="#"><i class="fa fa-folder-o"></i>BTP</a></li>
-                      <li><a href="#"><i class="fa fa-comment-o"></i>0 Comments</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div><!-- entry-post -->
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="blog-post">
-            <div class="entry-header">
-              <div class="blog-image">
-                <div class="entry-thumbnail">
-                  <%= link_to "/news-details" do %>
-                      <%= image_tag(('blog/3.jpg'), :class => "img-responsive", :alt => "Blog Image") %>
-                  <% end %>
-                </div>
-                <div class="time">
-                  <h2>02 <span>Aug</span></h2>
-                </div>
-              </div> <!-- blog-image -->
-            </div>
-            <div class="entry-post">
-              <div class="entry-title">
-                <h4><a href="blog-details.html">L'importance du Terrassement</a></h4>
-              </div>
-              <div class="post-content">
-
-                <div class="entry-summary">
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit too on volupt usantium to  doloremque laudantium, for I totam rem aperiam to the end. Sed ut of perspi unde omnis iste natus error sit too on voluptatem.</p>
-                  <div class="entry-meta">
-                    <ul class="list-inline">
-                      <li><a href="#"><i class="fa fa-user"></i>Jr. Macllum</a></li>
-                      <li><a href="#"><i class="fa fa-folder-o"></i>BTP</a></li>
-                      <li><a href="#"><i class="fa fa-comment-o"></i>0 Comments</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div><!-- entry-post -->
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
+        </div> -->
+       <!--  <div class="col-md-4 col-sm-6">
           <div class="blog-post">
             <div class="entry-header">
               <div class="blog-image">
@@ -271,7 +121,7 @@
                 <div class="time">
                   <h2>02 <span>Aug</span></h2>
                 </div>
-              </div> <!-- blog-image -->
+              </div> 
             </div>
             <div class="entry-post">
               <div class="entry-title">
@@ -290,10 +140,10 @@
                   </div>
                 </div>
               </div>
-            </div><!-- entry-post -->
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
+        </div> -->
+        <!-- <div class="col-md-4 col-sm-6">
           <div class="blog-post">
             <div class="entry-header">
               <div class="blog-image">
@@ -305,7 +155,7 @@
                 <div class="time">
                   <h2>02 <span>Aug</span></h2>
                 </div>
-              </div> <!-- blog-image -->
+              </div> 
             </div>
             <div class="entry-post">
               <div class="entry-title">
@@ -324,14 +174,15 @@
                   </div>
                 </div>
               </div>
-            </div><!-- entry-post -->
+            </div>
           </div>
-        </div>
+        </div> -->
 
       </div><!-- row -->
     </div><!-- blog content -->
     <div class="pagination-section text-center">
-      <ul class="pagination">
+      <%= will_paginate @articles, renderer: BootstrapPagination::Rails %>
+      <!-- <ul class="pagination">
         <li>
           <a href="blog.html#" aria-label="Previous">
             <span aria-hidden="true">&laquo;</span>
@@ -347,7 +198,7 @@
             <span aria-hidden="true">&raquo;</span>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div><!-- pagination-section -->
 
   </div><!-- container -->
