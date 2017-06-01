@@ -16,39 +16,42 @@
 <div class="details-section section-padding">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-sm-12">
+      <div class="col-md-7 col-sm-12">
         <div id="product-carousel">
           <div class="carousel-image">
-            <%= image_tag("project/8.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("agro/1.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
           <div class="carousel-image">
-            <%= image_tag("project/5.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("agro/2.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
           <div class="carousel-image">
-            <%= image_tag("project/3.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("agro/3.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-5 col-sm-12">
         <div class="details-info">
-          <h2>Full Description Of Project</h2>
-          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril </p>
+          <h2>Votre partenaire en Agriculture, élevage, pisciculture, Apiculture</h2>
+          <p>
+            Vous êtes un agriculteur ou un futur agriculteur ? <br>
+            Vous avez un projet d'installation ou d’extension en agriculture ?
+          </p>
           <div class="details-list">
             <ul>
               <li>
-                <p>Client: <span>Awesome Company</span></p>
+                <p>Votre partenaire technique et financier, vous accompagne tout au long de votre démarche :
+                  <span>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Etudes et conception de projets agricoles <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Financement des installations et des activités <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Mise à disposition des compétences requises
+                  </span>
+                </p>
               </li>
               <li>
-                <p>Location: <span>Mountain View CA 9489, USA</span></p>
-              </li>
-              <li>
-                <p>Compeleted Year: <span>03 Aug, 2016</span></p>
-              </li>
-              <li>
-                <p>Value: <span>About $22, 13, 656</span></p>
-              </li>
-              <li>
-                <p>Architect: <span>Jhon & Berry</span></p>
+                <p>
+                  Etape par étape, nous allons étudier avec vous les termes
+                  de notre collaboration avec au bout la préoccupation de réaliser de votre projet.
+                </p>
               </li>
 
             </ul>
@@ -62,95 +65,76 @@
 
 <div class="recent-projects section-padding">
   <div class="container">
-    <div class="section-title text-center">
-      <div class="container">
-        <h1>Other Projects</h1>
-        <h2>Completed Recently</h2>
-      </div>
-    </div>
-
     <div class="row" >
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('project/1.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('agro/1.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/1.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
-          <div class="project-title">
-            <h3><a href="project-details.html">Nam liber tempor cum</a></h3>
-            <span>Clients: Dreamer</span>
-          </div>
-
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('project/2.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('project/2.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('agro/2.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/2.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
-          </div>
-          <div class="project-title">
-            <h3><a href="project-details.html">Lorem ipsum dolor sit</a></h3>
-            <span>Clients: Asthetic</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-
-          <div class="project-item">
-            <%= link_to image_path('project/3.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('project/3.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-          <div class="project-title">
-            <h3><a href="project-details.html">Legentis in iis qui facit</a></h3>
-            <span>Clients: Martin</span>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
-
           <div class="project-item">
-            <%= link_to image_path('project/4.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('project/4.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('agro/3.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/3.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
-          </div>
-          <div class="project-title">
-            <h3><a href="project-details.html">Duis autem vel eum </a>  </h3>
-            <span>Clients: Marbel</span>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
-
           <div class="project-item">
-            <%= link_to image_path('project/2.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('project/5.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('agro/4.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/4.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
-          </div>
-          <div class="project-title">
-            <h3><a href="project-details.html">Lorem ipsum dolor sit</a></h3>
-            <span>Clients: Asthetic</span>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
-
           <div class="project-item">
-            <%= link_to image_path('project/3.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('project/6.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('agro/5.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/5.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
-          <div class="project-title">
-            <h3><a href="project-details.html">Legentis in iis qui facit</a></h3>
-            <span>Clients: Martin</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+          <div class="project-item">
+            <%= link_to image_path('agro/6.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/6.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+          <div class="project-item">
+            <%= link_to image_path('agro/7.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/7.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="project-content">
+          <div class="project-item">
+            <%= link_to image_path('agro/8.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('agro/8.jpg'), :class => 'img-responsive', :alt => '') %>
+            <% end %>
           </div>
         </div>
       </div>
