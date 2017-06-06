@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d09fcd-a68e-4a7e-b556-47a4d50ddab9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" afterPath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/immo.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/arts.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/arts.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arts.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="arts.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/filliales/arts.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="64" column="16" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="64" selection-end-column="16" />
+            <state relative-caret-position="369">
+              <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -63,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="immo.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="immo.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/filliales/immo.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -201,9 +200,9 @@
         <option value="$PROJECT_DIR$/app/views/filliales/transit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/oberlin_style.scss" />
         <option value="$PROJECT_DIR$/app/views/filliales/agro.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/filliales/arts.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/construction.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/filliales/arts.html.erb" />
       </list>
     </option>
   </component>
@@ -850,16 +849,15 @@
       <workItem from="1496053054545" duration="26746000" />
       <workItem from="1496230188124" duration="17683000" />
       <workItem from="1496737920284" duration="52000" />
-      <workItem from="1496744617922" duration="8493000" />
+      <workItem from="1496744617922" duration="9226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139045000" />
+    <option name="totallyTimeSpent" value="139778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22317597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -869,7 +867,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29491946" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39157373" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39157373" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1181,14 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/filliales/arts.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="64" column="16" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="64" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/filliales/agro.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1222,6 +1212,14 @@
             <element signature="e#2165#2192#0#HTML" expanded="true" />
             <element signature="e#2261#2288#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/filliales/arts.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
