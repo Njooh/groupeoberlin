@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d09fcd-a68e-4a7e-b556-47a4d50ddab9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" afterPath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/services.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/services.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/tourisme.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/tourisme.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/transit.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/transit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/news/index.html.erb" afterPath="$PROJECT_DIR$/app/views/news/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,16 +27,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="agro.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/filliales/agro.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="57" column="16" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="57" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="arts.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/filliales/arts.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,15 +71,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/filliales/services.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="623">
+              <caret line="97" column="30" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="97" selection-end-column="30" />
               <folding>
                 <element signature="e#2492#2519#0#HTML" expanded="true" />
                 <element signature="e#2608#2635#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/filliales/transit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a-propos.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/a-propos.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3870">
+              <caret line="258" column="38" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="258" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tourisme.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/filliales/tourisme.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="142" selection-end-column="49" />
+              <folding>
+                <marker date="1496769787000" expanded="false" signature="1596:1615" ph="..." />
+                <marker date="1496769787000" expanded="false" signature="1726:1745" ph="..." />
+                <marker date="1496769787000" expanded="false" signature="1861:1880" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/news/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="353" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,16 +156,6 @@
                 <element signature="e#2165#2192#0#HTML" expanded="true" />
                 <element signature="e#2261#2288#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oberlin_style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/oberlin_style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30120">
-              <caret line="2008" column="24" lean-forward="false" selection-start-line="2008" selection-start-column="24" selection-end-line="2008" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -232,16 +259,12 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_link-contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/news/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/news/show.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/users/article.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contact/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/filliales/tourisme.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/filliales/transit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/oberlin_style.scss" />
         <option value="$PROJECT_DIR$/app/views/filliales/agro.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/construction.html.erb" />
@@ -250,6 +273,10 @@
         <option value="$PROJECT_DIR$/app/views/filliales/ingenierie.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/it.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/services.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/filliales/transit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/filliales/tourisme.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/news/index.html.erb" />
       </list>
     </option>
   </component>
@@ -896,12 +923,12 @@
       <workItem from="1496053054545" duration="26746000" />
       <workItem from="1496230188124" duration="17683000" />
       <workItem from="1496737920284" duration="52000" />
-      <workItem from="1496744617922" duration="13146000" />
+      <workItem from="1496744617922" duration="14699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143698000" />
+    <option name="totallyTimeSpent" value="145251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1114,13 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/news/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="328" column="14" lean-forward="false" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1132,13 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/a-propos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1181,20 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="572" column="1" lean-forward="false" selection-start-line="572" selection-start-column="1" selection-end-line="572" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/filliales/transit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="142" column="30" lean-forward="false" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/filliales/tourisme.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="142" column="30" lean-forward="false" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1282,12 +1281,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/filliales/services.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="623">
+          <caret line="97" column="30" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="97" selection-end-column="30" />
           <folding>
             <element signature="e#2492#2519#0#HTML" expanded="true" />
             <element signature="e#2608#2635#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/filliales/transit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/a-propos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="258" column="38" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="258" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/filliales/tourisme.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="142" selection-end-column="49" />
+          <folding>
+            <marker date="1496769787000" expanded="false" signature="1596:1615" ph="..." />
+            <marker date="1496769787000" expanded="false" signature="1726:1745" ph="..." />
+            <marker date="1496769787000" expanded="false" signature="1861:1880" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/news/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="353" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
