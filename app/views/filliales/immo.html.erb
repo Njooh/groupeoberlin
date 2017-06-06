@@ -16,47 +16,68 @@
 <div class="details-section section-padding">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-4 col-sm-12">
         <div id="product-carousel">
           <div class="carousel-image">
-            <%= image_tag("agro/1.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("immo/1.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
           <div class="carousel-image">
-            <%= image_tag("agro/2.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("immo/3.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
           <div class="carousel-image">
-            <%= image_tag("agro/3.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("immo/2.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+        </div>
+        <div id="product-carousel">
+          <div class="carousel-image">
+            <%= image_tag("immo/2.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+          <div class="carousel-image">
+            <%= image_tag("immo/1.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+          <div class="carousel-image">
+            <%= image_tag("immo/3.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-8 col-sm-12">
         <div class="details-info">
-          <h2>Votre partenaire en Agriculture, élevage, pisciculture, Apiculture</h2>
+          <h2>Votre agence immobiliere</h2>
           <p>
-            Vous êtes un agriculteur ou un futur agriculteur ? <br>
-            Vous avez un projet d'installation ou d’extension en agriculture ?
+            Tous les services de l’immobilier chez nous.
           </p>
           <div class="details-list">
             <ul>
               <li>
-                <p>Votre partenaire technique et financier, vous accompagne tout au long de votre démarche :
+                <p>Location, vente, achat, gestion immobilière de :
                   <span>
-                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Etudes et conception de projets agricoles <br>
-                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Financement des installations et des activités <br>
-                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Mise à disposition des compétences requises
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Terrains <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Résidences <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Appartements <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Studios <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Chambres
                   </span>
                 </p>
               </li>
               <li>
                 <p>
-                  Etape par étape, nous allons étudier avec vous les termes
-                  de notre collaboration avec au bout la préoccupation de réaliser de votre projet.
+                  Nous finançons également :
+                  <span>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Les opérations d’octroi de titre de propriété <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Le lotissement de terrains
+                  </span>
                 </p>
               </li>
-
             </ul>
           </div>
-
+          <p>
+            De nombreux propriétaires de parcs immobiliers nous confient leurs biens que nous mettons à votre disposition.
+            Nous nous assurons que vos exigences et vos budgets soient respectés, au regard des disponibilités sur le marché.
+          </p>
+          <p>
+            Nous disposons également d’un large réseau de contacts dans les différentes localités que nous couvrons.
+            Tout est fait pour que vous trouviez le bien immobilier qui vous correspond.
+          </p>
         </div>
       </div>
     </div><!-- row -->
@@ -69,8 +90,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('agro/1.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/1.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('immo/1.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('immo/1.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
         </div>
@@ -78,8 +99,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('agro/2.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/2.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('immo/2.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('immo/2.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
         </div>
@@ -87,53 +108,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('agro/3.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/3.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/4.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/4.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/5.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/5.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/6.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/6.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/7.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/7.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/8.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/8.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('immo/3.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('immo/3.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
         </div>

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19d09fcd-a68e-4a7e-b556-47a4d50ddab9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" afterPath="$PROJECT_DIR$/app/assets/images/agro/oberlin_galery.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/groupeoberlin.com_v1.0.iml" afterPath="$PROJECT_DIR$/.idea/groupeoberlin.com_v1.0.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/construction.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/construction.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/filliales/immo.html.erb" afterPath="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="construction.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="construction.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/filliales/construction.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -59,6 +58,20 @@
                 <element signature="e#3243#3270#0#HTML" expanded="true" />
                 <element signature="e#3366#3393#0#HTML" expanded="true" />
                 <element signature="e#3466#3493#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="immo.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/filliales/immo.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="115" column="12" lean-forward="false" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
+              <folding>
+                <element signature="e#2064#2091#0#HTML" expanded="true" />
+                <element signature="e#2165#2192#0#HTML" expanded="true" />
+                <element signature="e#2261#2288#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,7 +194,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/a-propos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/ingenierie.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/it.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/services.html.erb" />
@@ -191,6 +203,7 @@
         <option value="$PROJECT_DIR$/app/views/filliales/agro.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/arts.html.erb" />
         <option value="$PROJECT_DIR$/app/views/filliales/construction.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/filliales/immo.html.erb" />
       </list>
     </option>
   </component>
@@ -837,12 +850,12 @@
       <workItem from="1496053054545" duration="26746000" />
       <workItem from="1496230188124" duration="17683000" />
       <workItem from="1496737920284" duration="52000" />
-      <workItem from="1496744617922" duration="6139000" />
+      <workItem from="1496744617922" duration="8493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136691000" />
+    <option name="totallyTimeSpent" value="139045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1125,13 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/filliales/immo.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="142" column="30" lean-forward="false" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/filliales/ingenierie.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -1203,6 +1209,18 @@
             <element signature="e#3243#3270#0#HTML" expanded="true" />
             <element signature="e#3366#3393#0#HTML" expanded="true" />
             <element signature="e#3466#3493#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/filliales/immo.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="115" column="12" lean-forward="false" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
+          <folding>
+            <element signature="e#2064#2091#0#HTML" expanded="true" />
+            <element signature="e#2165#2192#0#HTML" expanded="true" />
+            <element signature="e#2261#2288#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
