@@ -16,47 +16,84 @@
 <div class="details-section section-padding">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-5 col-sm-12">
         <div id="product-carousel">
           <div class="carousel-image">
-            <%= image_tag("agro/1.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("construction/1.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
           <div class="carousel-image">
-            <%= image_tag("agro/2.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("construction/2.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
+        </div>
+        <div id="product-carousel">
+          <div class="carousel-image">
+            <%= image_tag("construction/3.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
           <div class="carousel-image">
-            <%= image_tag("agro/3.jpg",  alt: "Image", class: "img-responsive") %>
+            <%= image_tag("construction/4.jpg",  alt: "Image", class: "img-responsive") %>
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-7 col-sm-12">
         <div class="details-info">
-          <h2>Votre partenaire en Agriculture, élevage, pisciculture, Apiculture</h2>
+          <h2>Votre partenaire pour vos projets de construction</h2>
           <p>
-            Vous êtes un agriculteur ou un futur agriculteur ? <br>
-            Vous avez un projet d'installation ou d’extension en agriculture ?
+            Notre modèle fonctionnel est structuré de façon à prendre en main une multitude de projets,
+            y compris la réalisation de projets clés en main. Nous sommes également aptes à travailler à
+            partir de plans ou en se conformant à des spécifications préétablies.
+          </p>
+          <p>
+            Oberlin Construction collabore à de nombreux projets pour lesquels nous travaillons étroitement avec
+            des propriétaires, des concepteurs et des gestionnaires d'immeubles. Nous collaborons également très
+            souvent avec des architectes et des ingénieurs pour faire en sorte que le client soit entièrement satisfait.
+          </p>
+          <p>
+            De nombreux africains de la diaspora nous ont confié leurs travaux de construction en Afrique.
+            Les travaux sont toujours réalisés dans les normes convenues et les bâtiments livrés dans les délais à
+            leurs heureux propriétaires.
           </p>
           <div class="details-list">
             <ul>
               <li>
-                <p>Votre partenaire technique et financier, vous accompagne tout au long de votre démarche :
+                <p>Nous pouvons réaliser pour vous des prestations telles que :
                   <span>
-                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Etudes et conception de projets agricoles <br>
-                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Financement des installations et des activités <br>
-                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Mise à disposition des compétences requises
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Etude de projets de bâtiments <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Terrassement <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Aménagement des voiries et réseaux divers <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Adduction d’eau potable <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Maçonnerie <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Charpente <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Revêtements sols, murs et plafonds <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Electricité <br>
+                    <i class="fa fa-arrow-right" style="margin-right: 20px;"> </i> Peinture, plâtre et enduits
                   </span>
                 </p>
               </li>
-              <li>
-                <p>
-                  Etape par étape, nous allons étudier avec vous les termes
-                  de notre collaboration avec au bout la préoccupation de réaliser de votre projet.
-                </p>
-              </li>
-
             </ul>
           </div>
-
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="details-info">
+          <h2>Votre maison à la carte</h2>
+          <p>
+            Nous concevons avec vous, pas à pas, la maison de vos rêves, et nous la réalisons tel que vous le désirez.
+            <a href="/contact">Contactez-nous</a>
+          </p>
+          <h2>Nos maisons types</h2>
+          <p>
+            Voici quelques-unes de nos conceptions prédéfinies de maisons que vous pouvez adopter.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div id="product-carousel">
+          <div class="carousel-image">
+            <%= image_tag("construction/6.jpg",  alt: "Image", class: "img-responsive") %>
+          </div>
         </div>
       </div>
     </div><!-- row -->
@@ -69,8 +106,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('agro/1.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/1.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('construction/5.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('construction/5.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
         </div>
@@ -78,8 +115,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('agro/2.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/2.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('construction/7.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('construction/7.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
         </div>
@@ -87,53 +124,8 @@
       <div class="col-sm-6 col-md-4">
         <div class="project-content">
           <div class="project-item">
-            <%= link_to image_path('agro/3.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/3.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/4.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/4.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/5.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/5.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/6.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/6.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/7.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/7.jpg'), :class => 'img-responsive', :alt => '') %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div class="project-content">
-          <div class="project-item">
-            <%= link_to image_path('agro/8.jpg'), :class => 'image-link' do %>
-                <%= image_tag(('agro/8.jpg'), :class => 'img-responsive', :alt => '') %>
+            <%= link_to image_path('construction/8.jpg'), :class => 'image-link' do %>
+                <%= image_tag(('construction/8.jpg'), :class => 'img-responsive', :alt => '') %>
             <% end %>
           </div>
         </div>
